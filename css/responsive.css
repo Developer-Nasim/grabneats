@@ -1,0 +1,3612 @@
+.container {
+	max-width: 1500px;
+}
+.container-fluid {
+	max-width: 1500px !important;
+}
+
+@media (max-width: 1700px){
+	.order-confirmation-section {
+		padding: 60px 0 50px;
+	}
+	.order-confirmation-section .section-title h2 {
+		font-size: 24px;
+		padding: 0 0 15px;
+	}
+	.order-confirmation-section .heading-data h3 {
+		font-size: 15px;
+	}
+	.order-confirmation-section .heading-data {
+		padding: 22px 30px;
+	}
+	.order-confirmation-section .container {
+		justify-content: center;
+	}
+	.order-confirmation-section-inner {
+		width: 100%;
+		max-width: 700px;
+	}
+	.order-details-wrap {
+		margin: 25px 0 0;
+		padding: 20px 30px;
+		border-radius: 5px;
+	}
+	.order-details-wrap .top-part h3 {
+		font-size: 24px;
+	}
+	.order-details-wrap .top-part {
+		padding: 0 0 15px;
+		margin: 0px 0 15px;
+	}
+	.order-details-wrap .order-item .text-details h3 {
+		font-size: 15px;
+		margin: 0 0 3px;
+	}
+	.order-details-wrap .order-item .text-details p {
+		font-size: 12px;
+	}
+	.order-details-wrap .order-item .number {
+		width: 25px;
+		font-size: 14px;
+		padding-right: 7px;
+	}
+	.order-details-wrap .order-item .price h3 {
+		font-size: 16px;
+	}
+	.order-details-wrap .order-item .price {
+		margin-left: 15px;
+		width: 63px;
+	}
+
+	.details-table-outer table td {
+		padding: 5px 0;
+		font-size: 13px;
+	}
+	.details-table-outer table .bold-tr td {
+		padding: 8px 0 0;
+		font-size: 15px;
+	}
+	.details-table-outer table {
+		max-width: 349px;
+	}
+	.order-details-wrap .order-item {
+		margin-bottom: 12px;
+		padding: 17px 10px;
+	}
+	.driver-tip .title h2 {
+		font-size: 20px;
+	}
+	.driver-tip {
+		padding: 30px 30px;
+	}
+	.driver-tip .title {
+		padding: 0 0 10px;
+		margin: 0 0 20px;
+	}
+
+	.driver-tip .submit-button {
+		margin-top: 20px;
+		width: 190px !important;
+	}
+}
+
+@media (max-width: 1570px){
+	.container{
+	    max-width: 95%;
+	}
+}
+
+@media (max-width: 1599px) {
+
+	/* new */
+    .bg-form-fill-section .text-side h2 {
+        font-size: 40px;
+    }
+    .bg-form-fill-section .text-side p {
+        font-size: 15px;
+        max-width: 410px;
+    }
+
+    .bg-form-fill-section .fill-form {
+        padding: 40px 40px;
+        width: 540px;
+    }
+}
+
+@media (max-width: 1399.98px) {
+	.header-content-form h1 {
+	    font-size: 55px;
+	    line-height: 70px;
+	}
+	img.header-top-item {
+	    width: 400px;
+	    right: 60px;
+	    top: -150px;
+	}
+	.pan-image img {
+	    width: 630px;
+	    position: relative;
+	    top: 35px;
+	}
+	.header-bottom-category {
+	    width: 600px;
+	    margin-top: 180px;
+	}
+	section.call-to-action {
+	    padding: 55px 0px;
+	}
+	.food-rating {
+	    top: 10px;
+	    right: 10px;
+	}
+	.listing-item-wraper {
+	    border: 1px solid #e7e7e7;
+	    padding: 10px;
+	    border-radius: 10px;
+	    background: #FBFBFB;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    overflow: hidden;
+	}
+	.promotion-slider-content h5 {
+	    font-size: 20px;
+	}
+	.listing-item--controler {
+	    position: relative;
+	    top: -10px;
+	}
+	.restaurants-header-image {
+	    height: 370px;
+	}
+	.restaurants-top h2 {
+	    font-size: 35px;
+	}
+	.restaurants-top h6 {
+	    font-size: 14px;
+	}
+	.restaurants-top {
+	    margin-bottom: 30px;
+	}
+	.slider-left-btn button, .slider-right-btn button {
+	    position: absolute;
+	    width: 30px;
+	    height: 30px;
+	    font-size: 18px !important;
+	}
+	.footer-bottom {
+	    display: flex;
+	    justify-content: space-between;
+	    padding-top: 50px;
+	    flex-wrap: wrap;
+	}
+	.footer-bottom-right {
+	    margin-top: 30px;
+	}
+	.signin-btn a {
+	    font-size: 16px;
+	    font-weight: 500;
+	    color: #000;
+	    border-radius: 20px;
+	    margin-left: 15px;
+	    letter-spacing: .5px;
+	}
+	.home-header-slider-content h4 {
+	    font-size: 18px;
+	}
+	.home-header-slider-content h1 {
+	    font-size: 43px;
+	    font-weight: 700;
+	    margin-top: 8px;
+	    line-height: 45px;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    width: 160px;
+	}
+	.find-delivery-button button {
+	    width: 100px;
+	}
+	.find-delivery-address-wraper {
+	    width: 572px;
+	}
+	.section-title2 .sec-title-l h1 {
+	    font-size: 30px;
+	}
+	.populer-categories-item h5 {
+	    font-size: 20px;
+	}
+	.populer-categories-item img {
+	    width: 160px;
+	    height: 160px;
+	}
+	.how-it-work-item h5 {
+	    font-size: 20px;
+	}
+	.how-it-work-item-image {
+	    width: 120px;
+	    height: 120px;
+	}
+	.how-it-work-item-image img {
+	    width: 40px;
+	}
+	.local-restaurants-home-item a {
+	    width: 230px;
+	}
+	.scroll-downs {
+	    bottom: 20px;
+	}
+	.listing-item-title1 h2 {
+	    font-size: 18px;
+	}
+	.listing-item-verified-badge h3 {
+	    font-size: 14px;
+	    font-weight: 500;
+	    color: #30ac5a;
+	}
+	.listing-item-verified-badge img {
+	    width: 20px;
+	}
+	.listing-item-promo {
+	    position: absolute;
+	    top: 20px;
+	    left: 20px;
+	    background: #fff;
+	    width: 80px;
+	    height: 37px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    border-radius: 8px;
+	    color: #f17228;
+	    font-size: 15px;
+	    font-weight: 700;
+	}
+	.listing-item-title1 {
+	    padding: 25px 20px;
+	    padding-top: 15px;
+	}
+	.call-to-action-double-item-content-left h4 {
+	    font-size: 22px;
+	    font-weight: 600;
+	}
+	.call-to-action-double-item-content-left p {
+	    font-size: 14px;
+	}
+	section#home-popular-categories .container {
+	    max-width: 95%;
+	}
+	section#how-it-work .container {
+	    width: 95%;
+	}
+	.general-page-header-content h1 {
+	    font-size: 45px;
+	}
+	.general-page-main-content-top h2 {
+	    font-size: 32px;
+	}
+	.form-wraper h4 {
+	    font-size: 25px;
+	}
+	.driver-signup-header .form-wraper {
+	    width: 490px;
+	    margin: 0 auto;
+	    padding: 35px 40px;
+	    box-shadow: 0px 20px 55px rgb(0 0 0 / 15%);
+	    border-radius: 10px;
+	}
+	.driver-signup-header-content-left h2 {
+	    font-size: 50px;
+	}
+
+
+
+
+	
+	
+	.payment-side .title h3 {
+		margin: 0 0 12px;
+		font-size: 22px;
+	}
+	.payment-side {
+		margin-left: 25px;
+		padding: 40px 0 0;
+	}
+
+
+	.product-show-section .section-title h2 {
+		font-size: 24px;
+		padding: 0 0 15px 0px !important;
+	}
+
+	.product-card {
+		padding: 8px;
+	}
+	.product-card .text h3 {
+		margin: 0 0 2px;
+		font-size: 16px;
+	}
+	.product-card .text p {
+		margin: 0 0 0px;
+		font-size: 12px;
+	}
+	.product-card .text .text-button {
+		font-size: 12px;
+	}
+	.product-card .text {
+		padding: 12px 0 0;
+	}
+
+	.delivery-by label {
+		padding: 4px 9px 5px;
+		font-size: 13px;
+	}
+
+
+	.restaurant-top-details .restaurant-data .text-data h3 {
+		font-size: 25px;
+		margin: 0 0 4px;
+	}
+	.restaurant-top-details .restaurant-data .text-data p {
+		margin: 0;
+		font-size: 14px;
+	}
+	.restaurant-top-details .restaurant-data .image {
+		width: 55px;
+		margin: 0 20px 0 0;
+	}
+	.restaurant-top-details .restaurant-data {
+		padding: 30px 30px;
+		border-radius: 10px;
+	}
+	.restaurant-top-details {
+		min-height: 350px;
+		padding: 35px;
+	}
+
+
+	.restaurant-options-wrap .delivery-options .option h3 {
+		font-size: 15px;
+	}
+	.restaurant-options-wrap .delivery-options .option p {
+		font-size: 9px;
+		margin: 0 0 3px;
+	}
+	.restaurant-options-wrap .button {
+		min-height: 40px;
+		padding: 0 10px;
+	}
+	.restaurant-options-wrap .delivery-options {
+		margin: 0 15px 0 0;
+	}
+	.restaurant-options-wrap .button h4 {
+		font-size: 13px;
+	}
+	.restaurant-options-wrap .order-ability-details h3 {
+		font-size: 11px;
+		margin-left: 14px;
+		padding-left: 14px;
+	}
+	.restaurant-options-wrap .order-ability-details h3 span {
+		font-size: 14px;
+		margin: 0 7px 0 0;
+	}
+	.restaurant-category-slider .single-category a {
+		padding: 5px 0;
+		font-size: 13px;
+	}
+
+	.restaurant-items .title h2 {
+		margin: 0 0 8px;
+		font-size: 26px;
+	}
+	.restaurant-items .title p {
+		font-size: 14px;
+	}
+	.restaurant-product-card .image {
+		height: 140px;
+	}
+	.restaurant-product-card .image .product-promo {
+		padding: 4px 5px 5px;
+		top: 15px;
+		left: 15px;
+		font-size: 12px;
+	}
+	.restaurant-product-card {
+		border-radius: 4px;
+	}
+	.restaurant-product-card .text h3 {
+		font-size: 16px;
+		margin: 0 0 4px;
+	}
+	.restaurant-product-card .text h4 {
+		font-size: 13px;
+		margin: 0 0 5px;
+	}
+	.restaurant-product-card .text p {
+		font-size: 11px;
+		line-height: 1.5;
+	}
+	.restaurant-product-card .text .bottom h3 {
+		font-size: 15px;
+	}
+	.restaurant-product-card .text .bottom {
+		margin: 10px 0 0;
+	}
+	.restaurant-product-card .text .bottom .button {
+		height: 20px;
+		width: 20px;
+		font-size: 10px;
+	}
+	.restaurant-items .bottom-part .button {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+
+	.side-cart .title h2 {
+		font-size: 24px;
+		margin: 0 0 8px;
+	}
+	.side-cart {
+		width: 300px;
+		padding: 5px 12px 60px;
+		margin-left: 20px;
+	}
+
+	.menu-header .container-fluid {
+		gap: 0px;
+	}
+	.find-delivery-address-wraper .dropdown button:after {
+	    width: 8px;
+	    height: 8px;
+	}
+	.slider-control2 {
+	    top: -45px;
+	}
+	.slider-control2 a {
+	    font-size: 14px;
+	}
+
+	.le-sidebar {
+	    padding-top: 40px;
+	}
+	.product-show-section .section-title h2 {
+	    font-size: 24px;
+	    padding: 0 0 15px 8px !important;
+	}
+	.restaurants-cart-items-image {
+	    width: 150px;
+	    min-width: 150px;
+	}
+	.restaurants-cart-items h4 {
+	    font-size: 20px;
+	    font-weight: 600;
+	}
+	.restaurants-cart-items-info h3 {
+	    font-size: 22px;
+	    font-weight: 700;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.restaurants-cart-items-info {
+	    padding: 15px 15px;
+	}
+	.restaurant-options-wrap-left {
+	    display: flex;
+	    align-items: center;
+	    flex-wrap: wrap;
+	}
+	.order-ability-details-list ul {
+    	display: flex;
+	    margin-bottom: 0px;
+	    padding-left: 0px;
+	    margin-top: 20px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	img.header-top-item {
+	    width: 400px;
+	    right: 0px;
+	    top: -150px;
+	}
+	.header-content-form h1 {
+	    font-size: 50px;
+	    line-height: 70px;
+	}
+	img.header-top-item {
+	    width: 320px;
+	    right: 0px;
+	    top: -110px;
+	}
+	a.navbar-brand img {
+	    width: 270px;
+	}
+	.sec-title h2 {
+	    font-size: 45px;
+	}
+	.how-it-work-item img {
+	    width: 100px;
+	}
+	.how-it-work-item h3 {
+	    font-size: 22px;
+	}
+	.sec-title-l {
+	    margin-bottom: 0px;
+	}
+	.perks-and-partner-content-top h3 {
+	    font-size: 32px;
+	    font-weight: 600;
+	}
+	.footer-bottom-left-item {
+	    margin-right: 55px;
+	}
+	.pan-image img {
+	    width: 480px;
+	    position: relative;
+	    top: -60px;
+	    right: -20px;
+	}
+	.find-food-wraper form {
+	    width: 740px;
+	}
+	.how-it-work-item {
+	    width: 100%;
+	}
+	a.nav-link {
+	    font-size: 16px;
+	}
+	.search-box {
+	    width: 270px;
+	    margin-right: 10px;
+	    position: relative;
+	}
+	.search-box input {
+	    font-size: 16px;
+	}
+	.listing-item-footer p {
+	    font-size: 12px;
+	}
+	.listing-item-title h5 {
+	    font-size: 14px;
+	}
+	.listing-item-title {
+	    margin-top: 15px;
+	}
+	.food-rating {
+	    position: absolute;
+	    top: 10px;
+	    right: 10px;
+	    padding: 0px 5px;
+	    border-radius: 5px;
+	}
+	.food-rating span {
+	    font-size: 15px;
+	}
+	.food-rating img {
+	    width: 14px;
+	    margin-right: 5px;
+	}
+	.listing-item--controler {
+	    position: relative;
+	    top: 0px;
+	}
+	.restaurants-cart-wraper {
+	    width: 350px;
+	    margin: 0 auto;
+	    margin-top: 50px;
+	}
+	.select-location {
+	    margin-left: 20px;
+	}
+	.select-location {
+	    margin-left: 15px;
+	}
+	.header-menu-center img {
+	    width: 200px;
+	}
+	.search-box input {
+	    font-size: 14px;
+	}
+	.search-box {
+		width: 220px;
+		margin-right: 20px;
+		position: relative;
+	}
+	.restaurants-top h2 {
+	    font-size: 30px;
+	}
+	.listing-item-image a {
+	    height: 115px;
+	}
+	.food-rating span {
+	    font-size: 12px;
+	}
+	.sec-title-l h1 {
+	    font-size: 25px;
+	    font-weight: 600;
+	    line-height: 40px;
+	}
+	.signin-btn a {
+	    width: max-content;
+	}
+	.home-header-slider-content h1 {
+	    font-size: 32px;
+	    font-weight: 600;
+	    margin-top: 8px;
+	    line-height: 38px;
+	}
+	.find-delivery-address-icon input {
+	    border: 0px;
+	    width: 185px;
+	    margin-right: 10px;
+	    font-size: 16px;
+	}
+	.find-delivery-address-wraper {
+	    width: 520px;
+	    height: 60px;
+	    margin-top: 20px;
+	}
+	.section-title2 .sec-title-l h1 {
+	    font-size: 20px;
+	}
+	.how-it-work-item h5 {
+	    font-size: 18px;
+	}
+	.how-it-work-item img {
+	    width: auto;
+	    height: 35px;
+	}
+	.how-it-work-item p {
+	    font-size: 14px;
+	}
+	.how-it-work-item-image {
+	    width: 100px;
+	    height: 100px;
+	}
+	.arrow1 {
+	    width: 120px !important;
+	}
+	.arrow1 img{
+		width: 100%;
+	}
+	.local-restaurants-home-item-info > div h4 {
+	    font-size: 15px;
+	}
+	.local-restaurants-home-item-rating h6 {
+	    font-size: 14px;
+	}
+	.local-restaurants-home-icon {
+	    min-width: 25px;
+	    height: 25px;
+	    font-size: 19px;
+	}
+	.see-all-btn span {
+	    width: 30px;
+	    height: 30px;
+	}
+	.see-all-btn a p {
+	    font-size: 16px;
+	}
+	.populer-categories-item h5 {
+	    font-size: 18px;
+	}
+	.populer-categories-item img {
+	    width: 120px;
+	    height: 120px;
+	}
+	.call-to-action-content h2 {
+	    font-size: 25px;
+	}
+	section.call-to-action {
+	    padding: 35px 0px;
+	}
+	.scroll-downs {
+	    bottom: 10px;
+	}
+	.home-header-slider-content h4 {
+	    font-size: 17px;
+	}
+	.listing-item-wraper1 {
+	    background: #F9F9F9;
+	    border-radius: 10px;
+	    overflow: hidden;
+	    transition: .3s ease;
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    padding: 12px 12px;
+	}
+	.find-delivery-button button {
+	    padding: 12px 0px;
+	}
+	a.signup-btn {
+	    font-size: 14px;
+	    padding: 6px 10px;
+	}
+	.header-menu-center img {
+	    width: 160px;
+	}
+	.form-wraper button {
+	    height: 55px;
+	    font-size: 14px;
+	}
+	.form-wraper button img {
+	    height: 25px;
+	    position: absolute;
+	    left: 25px;
+	}
+	.input-wraper input {
+	    height: 55px;
+	    font-size: 14px;
+	}
+	button.login-btn {
+	    font-size: 16px !important;
+	}
+	.form-wraper a {
+	    font-size: 14px;
+	}
+	.form-footer p {
+	    font-size: 14px;
+	}
+	.checkmark-label {
+	    font-size: 14px;
+	}
+	.signup-footer p, .signup-footer a {
+	    font-size: 14px;
+	}
+	.driver-signup-header .form-wraper {
+	    width: 430px;
+	    margin: 0 auto;
+	    padding: 35px 40px;
+	    box-shadow: 0px 20px 55px rgb(0 0 0 / 15%);
+	    border-radius: 10px;
+	}
+	.deliver-when-you-want-footer {
+	    text-align: center;
+	    width: 85%;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	}
+	.deliver-when-you-want-footer p {
+	    font-weight: 300;
+	    margin-bottom: 20px;
+	    font-size: 14px;
+	}
+
+
+	/* new */
+    .logo img {
+        width: 200px;
+    }
+    .header-section {
+		height: 60px;
+	}
+	
+
+    .default-button {
+		font-size: 12px;
+		min-height: 34px;
+		padding: 0px 16px;
+	}
+
+    .bg-form-fill-section .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bg-form-fill-section .text-side {
+        width: 100%;
+        text-align: center;
+        padding: 0 0 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+        padding: 0 0 20px;
+    }
+    .section-01 .options-wrap .option h3 {
+        margin: 0 0 12px;
+        font-size: 17px;
+    }
+    .section-01 .options-wrap .option p {
+        font-size: 13px;
+    }
+
+    .section-01 .texts p {
+        margin: 0 0 30px;
+        font-size: 13px;
+    }
+    .section-01 .options-wrap .option {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .section-01 .content-row {
+        flex-wrap: wrap;
+    }
+    .section-01 .content-row .img-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-01 .content-row .text-side {
+        width: 100%;
+        padding: 50px 0 0;
+    }
+    .section-01 .content-row .text-side p {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .section-01 .options-wrap.full-img-wrap .option {
+        width: 100%;
+    }
+
+    .relax-section .container {
+        flex-wrap: wrap;
+    }
+    .relax-section .container .text-side {
+        padding: 0px 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .relax-section .container .image {
+        width: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0 0;
+    }
+
+    .logo h4 {
+		padding-left: 64px;
+		margin: 4px 0 0;
+		font-size: 12px;
+	}
+
+
+	.order-confirmation-section .container {
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.payment-side {
+		margin-left: 0;
+		padding: 20px 0 0;
+		width: 100%;
+		max-width: 700px;
+	}
+	.driver-tip {
+		padding: 30px 0;
+	}
+
+
+	.restaurant-now-section .container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.restaurant-now-inner {
+		flex-grow: 0;
+		width: 100%;
+	}
+
+	.side-cart {
+		width: 100%;
+		padding: 5px 12px 60px;
+		margin-left: 0;
+	}
+
+
+	.delivery-progress-step .single-step .inner p {
+		margin: 7px 0 0;
+		font-size: 14px;
+	}
+	.delivery-way-inner .man-image {
+		width: 70px;
+		height: 70px;
+	}
+	.delivery-way-inner .man-content {
+		padding: 14px 0 0 15px;
+	}
+	.delivery-way-inner .man-content .top .right {
+		margin-left: 20px;
+	}
+	.delivery-progress-wrap {
+		max-width: 650px;
+	}
+
+
+
+	.custom-menu li a {
+		font-size: 14px;
+	}
+	.custom-menu li {
+		margin-right: 25px;
+	}
+
+	.le-content {
+	    max-width: calc(100% - 200px);
+	    min-width: calc(100% - 200px);
+	    width: calc(100% - 200px);
+	}
+	.le-sidebar {
+	    width: 210px;
+	    min-width: 210px;
+	    max-width: 210px;
+	}
+	.sidebar-filter-top-two a {
+	    font-size: 14px;
+	}
+	.restaurant-now-left {
+	    width: 170px;
+	    min-width: 170px;
+	    padding-right: 10px;
+	    margin-top: 110px;
+	}
+	.restaurant-now-right {
+	    width: calc(100% - 180px);
+	    border-left: 3px solid #F5F5F5;
+	    padding-left: 25px;
+	}
+	.restaurant-now-top-title p {
+	    font-size: 14px;
+	    font-weight: 400;
+	    color: #444444;
+	}
+	.restaurants-cart-items-image {
+	    width: 150px;
+	    min-width: 115px;
+	}
+	span.restaurants-cart-items-promo {
+	    font-size: 10px;
+	    font-weight: 300;
+	    color: #fd9435;
+	    padding: 3px 11px;
+	    border-radius: 6px;
+	    display: inline-block;
+	    background: #DDDDDD;
+	}
+	.restaurants-cart-items-info h3 {
+	    font-size: 18px;
+	    font-weight: 700;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.restaurants-cart-items-info p {
+	    font-size: 12px;
+	    font-weight: 300;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    line-clamp: 2;
+	    -webkit-box-orient: vertical;
+	}
+	.restaurants-cart-items-info h6 {
+	    font-size: 12px;
+	    font-weight: 500;
+	    color: #fd9435;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.restaurants-cart-items h4 {
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.restaurants-cart-items {
+	    height: 135px;
+	}
+
+}
+
+@media (max-width: 991.98px) {
+	.header-bottom-category {
+	    width: 450px;
+	    margin-top: 180px;
+	}
+	a.category-item img {
+	    width: 45px;
+	    margin-bottom: 5px;
+	    min-height: 55px;
+	}
+	a.category-item {
+	    width: 85px;
+	}
+	.pan-image img {
+	    width: 400px;
+	    position: relative;
+	    top: 0;
+	    right: 0;
+	}
+	img.header-top-item {
+	    display: none;
+	}
+	.pan-image{
+		display: none;
+	}
+	.header-bottom-category {
+	    width: 100%;
+	    margin-top: 170px;
+	}
+	a.category-item {
+	    width: 130px;
+	    height: 130px;
+	    border-radius: 100%;
+	}
+	.how-it-work-item img {
+	    width: 70px;
+	}
+	.how-it-work-item h3 {
+	    font-size: 20px;
+	    margin-top: 20px;
+	}
+	.perks-and-partner-content-top h3 {
+	    font-size: 24px;
+	    font-weight: 600;
+	}
+	section.call-to-action {
+	    padding: 30px 0px;
+	}
+	.call-to-action-content a {
+	    margin-top: 20px;
+	}
+	.footer-bottom {
+	    display: flex;
+	    justify-content: space-between;
+	    padding-top: 50px;
+	    flex-wrap: wrap;
+	}
+	.footer-bottom-left-item {
+	    margin-right: 100px;
+	}
+	.footer-bottom-right {
+	    margin-top: 50px;
+	}
+	a.navbar-brand img {
+	    width: 230px;
+	}
+	.search-box {
+	    margin-right: 20px;
+	    position: relative;
+	}
+	.logo img {
+	    width: 180px;
+	}
+	.sidebar-menu i {
+	    font-size: 22px;
+	}
+	.search-box input {
+	    font-size: 14px;
+	}
+	.header-inner-menu-left {
+	    flex-wrap: wrap;
+	}
+	.logo {
+	    width: 100%;
+	}
+	.current-location {
+	    margin-top: 15px;
+	    margin-left: 0;
+	}
+	.header-inner-menu {
+	    align-items: flex-start;
+	}
+	.header-inner-menu-left {
+	    width: 50%;
+	}
+	.header-inner-menu-right {
+	    width: 50%;
+	}
+	.select-location select {
+    	margin-left: 0;
+	    border: 0px !important;
+	    background: transparent;
+	}
+	.restaurants-header-image {
+	    height: 250px;
+	}
+	.restaurants-menu-items-image img {
+	    width: 140px;
+	    min-height: 133px;
+	}
+	.header-menu-wraper {
+	    flex-wrap: wrap;
+	}
+	.header-menu-left {
+	    display: flex;
+	    align-items: center;
+	    width: 100% !important;
+	    margin-bottom: 5px;
+	    justify-content: space-between;
+	}
+	.header-menu-center {
+	    text-align: left !important;
+	}
+	.header-menu-wraper > div {
+	    width: 48%;
+	    text-align: center;
+	}
+	div#productQuantityModal .modal-dialog.modal-dialog-centered {
+	    min-width: 95%;
+	}
+	.product-quantity-modal-body-image img {
+	    width: 250px;
+	    border-radius: 15px;
+	}
+	.product-quantity-modal-body-info h3 {
+	    font-size: 20px;
+	}
+	/*Developed By Kamrul H Supon*/
+	.product-quantity-modal-body-info h4 {
+	    font-size: 16px;
+	    font-weight: 400;
+	}
+	.product-quantity-modal-body-info h5 {
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.restaurants-menu-main-title h3 {
+	    font-size: 22px;
+	}
+	section.header-menu {
+	    padding: 10px 0px;
+	    background: #fff;
+	}
+	.footer-cities-wraper a, .footer-bottom-left-item a {
+	    font-weight: 300;
+	    color: #fff;
+	    font-size: 14px;
+	}
+	.footer-bottom-left-item h4 {
+	    font-size: 18px;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+	}
+	.footer-cities h4 {
+	    font-size: 18px;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+	}
+	.newslater-wraper h3 {
+	    font-size: 18px;
+	    font-weight: 500;
+	    margin-bottom: 12px;
+	    color: #adadad;
+	}
+	.promotion-slider-content h5 {
+	    font-size: 17px;
+	}
+	.promotion-slider-content p {
+	    font-size: 14px;
+	}
+	.promotion-slider-content h6 {
+	    font-size: 15px;
+	}
+	.promotion-slider-content a {
+	    background: #fff;
+	    font-size: 10px;
+	    padding: 8px 20px;
+	}
+	.filter-options-wraper a {
+	    font-size: 12px;
+	}
+	.listing-item-title h5 {
+	    font-size: 13px;
+	}
+	.listing-load-more a {
+	    font-size: 14px;
+	}
+	.promotion-slider-item {
+	    height: 160px;
+	}
+	.footer-bottom-midle {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    margin-right: 293px;
+	    margin-top: 50px;
+	}
+	.footer-bottom-midle a {
+	    margin-left: 0px;
+	    margin-right: 10px;
+	}
+	.find-delivery-address-wraper {
+	    width: 490px;
+	    height: 50px;
+	    margin-top: 20px;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    width: 145px;
+	    font-size: 14px;
+	}
+	.find-delivery-address-wraper .dropdown img {
+	    width: 15px;
+	    position: relative;
+	    top: 1px;
+	    margin-right: 5px;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    width: 135px;
+	    font-size: 14px;
+	    padding: 8px 10px;
+	}
+	.find-delivery-button button {
+	    width: 100px;
+	    font-size: 14px;
+	    padding: 7px 0px;
+	}
+	.find-delivery-address-icon input {
+	    border: 0px;
+	    width: 175px;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+	.find-delivery-address-icon img {
+	    width: 13px;
+	}
+	.find-delivery-address-wraper {
+	    width: 475px;
+	    height: 50px;
+	    margin-top: 20px;
+	}
+	.populer-categories-wraper a {
+	    border-radius: 10px;
+	    padding: 30px 5px;
+	}
+	.populer-categories-item img {
+	    width: 95px;
+	    height: 95px;
+	    margin-bottom: 22px;
+	}
+	.populer-categories-item h5 {
+	    font-size: 16px;
+	}
+	.populer-categories-item p {
+	    font-size: 14px;
+	}
+	.see-all-btn a p {
+	    font-size: 15px;
+	}
+	.arrow1 {
+	    width: 70px !important;
+	}
+	.how-it-work-wraper > div {
+	    width: 30%;
+	    text-align: center;
+	}
+	.how-it-work-item h5 {
+	    font-size: 16px;
+	}
+	.how-it-work-wraper {
+	    display: flex;
+	    /* align-items: center; */
+	}
+	.arrow1 {
+	    display: none;
+	}
+	.local-restaurants-home-wraper > div {
+	    width: 48%;
+	}
+	.call-to-action-double-item-content {
+	    width: 90%;
+	    left: 50%;
+	    transform: translate(-50%, -8px);
+	}
+	.call-to-action-double-item-content-right a {
+	    width: 100px;
+	    padding: 10px 1px;
+	    font-size: 14px;
+	}
+	.call-to-action-double-item-content-left p {
+	    font-size: 14px;
+	    font-weight: 300;
+	    margin-top: 5px;
+	}
+	.scroll-downs {
+	    bottom: 2px;
+	}
+	.find-delivery-address-wraper ul.dropdown-menu a {
+	    padding: 9px 12px;
+	    display: flex;
+	    align-items: center;
+	    font-size: 14px;
+	}
+	.find-delivery-address-wraper ul.dropdown-menu a {
+	    padding: 9px 4px;
+	    padding-left: 11px;
+	    display: flex;
+	    align-items: center;
+	    font-size: 14px;
+	}
+	.scroll-downs {
+	    bottom: 2px;
+	    z-index: 1;
+	}
+	.booking-type {
+	    display: flex;
+	    align-items: center;
+	    margin-top: 15px;
+	    margin-bottom: 10px;
+	}
+	section.restaurants-wraper .promotion-slider-item {
+	    width: 100% !important;
+	    position: relative;
+	    height: 160px !important;
+	    overflow: hidden;
+	    border-radius: 10px;
+	    margin-bottom: 20px;
+	}
+	.home-header-slider-item > img {
+	    width: 145%;
+	}
+	.find-delivery-address-icon input {
+	    border: 0px;
+	    width: 168px;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+	.general-page-header-content h1 {
+	    font-size: 40px;
+	}
+	.general-page-main-content-top h2 {
+	    font-size: 26px;
+	}
+	.general-page-main-content-item p, .general-page-main-content-item ul li, .general-page-main-content-item > span {
+	    font-size: 14px;
+	}
+	.general-page-main-content-item h4 {
+	    font-size: 20px;
+	    font-weight: 600;
+	    margin-bottom: 15px;
+	}
+	.driver-signup-form-footer p {
+	    font-size: 12px;
+	}
+	.driver-signup-header .form-wraper {
+	    width: 390px;
+	    margin: 0 auto;
+	    padding: 35px 25px;
+	    box-shadow: 0px 20px 55px rgb(0 0 0 / 15%);
+	    border-radius: 10px;
+	}
+	.driver-signup-header-content-left h2 {
+	    font-size: 42px;
+	}
+	.driver-signup-form-footer p a{
+		font-size: 12px;
+	}
+
+
+	/* new */
+    .footer-bottom {
+	    display: flex;
+	    justify-content: space-between;
+	    padding-top: 50px;
+	    flex-wrap: wrap;
+	}
+	.footer-bottom-left-item {
+	    margin-right: 100px;
+	}
+	.footer-bottom-right {
+	    margin-top: 50px;
+	}
+	.space-menu-header::after {
+		display: none;
+	}
+	.logo h4 {
+		padding-left: 57px;
+		margin: 5px 0 0;
+		font-size: 12px;
+	}
+
+
+	.menu-header {
+		padding: 9px 0px 15px;
+		border-bottom: none;
+	}
+	.menu-header .container-fluid {
+		display: flex;
+	}
+	.mobile-option {
+		margin: 7px 0 0;
+		border-top: 1px solid rgb(231, 231, 231);
+	}
+	.mobile-option .container {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.mobile-option .container > * {
+		margin-top: 9px;
+	}
+	.mobile-option .search-box {
+	}
+	.mobile-option .delivery-by {
+		margin-right: 10px;
+	}
+
+	.product-card .image {
+		height: 120px;
+	}
+
+
+	.location-select-dropdown {
+		padding: 5px;
+	}
+
+
+	.menu-header .hamburger {
+		margin-right: 50px;
+	}
+
+	.find-delivery-address-wraper .dropdown button:after {
+	    width: 8px;
+	    height: 8px;
+	    right: 5px;
+	}
+
+	.find-delivery-button button {
+	    width: 100px;
+	    font-size: 14px;
+	    padding: 9px 0px;
+	}
+
+	.find-delivery-address-wraper {
+	    padding: 5px 5px;
+	}
+	.sidebar-filter-top-one h2 {
+	    font-size: 25px;
+	}
+	.le-sidebar h3, .sidebar-filter-features h3, .sidebar-filter .accordion-item button {
+	    font-size: 20px;
+	}
+
+	.le-sidebar {
+	    padding-top: 43px;
+	}
+
+	.hide-991-less{
+		display: none;
+	}
+	.hide-991-up{
+	    display: block;
+	}
+	.restaurant-now-main-flex {
+	    display: block;
+	    justify-content: space-between;
+	    margin-top: 40px;
+	    margin-bottom: 35px;
+	}
+	.restaurant-now-left {
+	    width: 100%;
+	    min-width: auto;
+	    padding-right: 0px;
+	    margin-top: 0px;
+	}
+	.restaurant-now-left ul {
+	    padding: 0px;
+	    height: auto;
+	    overflow: inherit;
+	    display: flex;
+		overflow: auto;
+	}
+	.restaurant-now-left ul li {
+	    list-style: none;
+	    margin-bottom: 15px;
+	    margin-right: 30px;
+	}
+	.restaurant-now-right {
+	    width: calc(100% - 0px);
+	    border-left: 0px;
+	    padding-left: 0px;
+	}
+	.restaurant-rating-and-time {
+	    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
+	    opacity: 0.94;
+	    box-shadow: 0px 20px 55px rgb(0 0 0 / 10%);
+	    backdrop-filter: blur(99px);
+	    border-radius: 6px;
+	    padding: 10px 25px;
+	}
+	.order-ability-details-list li {
+	    list-style: none;
+	    margin-left: 35px;
+	    font-size: 14px;
+	    font-weight: 300;
+	    position: relative;
+	}
+
+
+}
+
+@media (max-width: 767.98px) {
+	a.navbar-brand img {
+	    width: 210px;
+	}
+	.header-content-form h1 {
+	    font-size: 43px;
+	    line-height: 60px;
+	}
+	.find-food-wraper form {
+	    max-width: 100%;
+	    flex-wrap: wrap;
+	}
+	.find-food-wraper form > button {
+	    min-width: 100%;
+	    padding: 15px;
+	    margin-top: 15px;
+	    margin-left: 0;
+	}
+	.deliver-address-input input {
+	    width: 100%;
+	    padding: 17px 0px;
+	    padding-left: 65px;
+	    font-size: 18px;
+	}
+	a.category-item {
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 100%;
+	}
+	a.category-item img {
+	    width: 34px;
+	    margin-bottom: 2px;
+	    min-height: 35px;
+	}
+	.header-content-form {
+	    margin-top: 100px;
+	    position: relative;
+	    margin-bottom: 70px;
+	}
+	.header-content-form h1 {
+	    font-size: 43px;
+	    line-height: 60px;
+	    margin-bottom: 25px;
+	}
+	.header-bottom-category {
+	    width: 100%;
+	    margin-top: 100px;
+	}
+	.sec-title h2 {
+	    font-size: 40px;
+	}
+	.how-it-work-item {
+	    margin-bottom: 45px;
+	}
+	.local-restaurants-item {
+	    width: 48%;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+	.footer-cities-wraper span {
+	    width: 32%;
+	    margin-bottom: 7px;
+	}
+	.footer-bottom-left-item {
+	    margin-right: 50px;
+	}
+	section.call-to-action {
+	    padding: 50px 0px;
+	}
+	section#how-it-work {
+	    padding-bottom: 0;
+	}
+	.modal-dialog.modal-dialog-centered {
+	    min-width: 90%;
+	    max-width: 96%;
+	}
+	.schedule-delivery-content h6 {
+	    font-size: 18px;
+	}
+	.nice-select {
+	    font-size: 18px;
+	}
+	.schedule-delivery-content button {
+	    font-size: 18px;
+	}
+	.schedule-delivery-content h4 {
+	    font-size: 25px;
+	}
+	.deliver-address-input .dropdown button {
+	    font-size: 18px;
+	}
+	.deliver-address-input > img {
+	    width: 15px;
+	}
+	.deliver-address-input .dropdown button img {
+	    position: absolute;
+	    left: 17px;
+	}
+	.find-food-wraper form > button {
+	    font-size: 18px;
+	}
+	.deliver-address-input a.dropdown-item {
+	    font-size: 18px;
+	    padding: 15px 17px;
+	}
+	.offer-image {
+	    margin-bottom: 10px;
+	}
+	section.product-listing {
+	    padding: 25px 0px;
+	    padding-bottom: 0;
+	}
+	.filter-options-wraper {
+	    position: inherit;
+	    right: 0;
+	    top: 0;
+	    display: flex;
+	    align-items: center;
+	    width: 100%;
+	}
+	.filter-options {
+	    position: relative;
+	    top: inherit;
+	    margin-bottom: 20px;
+	}
+	.filter-options-wraper a {
+	    background: #ededed;
+	    margin-left: 0;
+	    margin-right: 15px;
+	    padding: 7px 15px;
+	    border-radius: 22px;
+	    color: #000;
+	    font-weight: 600;
+	}
+	.restaurants-top {
+	    margin-bottom: 25px;
+	}
+	.restaurants-menu-items {
+	    width: 100%;
+	}
+	.restaurants-top h2 {
+	    font-size: 30px;
+	}
+	.product-delivery-type {
+	    margin-bottom: 30px;
+	}
+	.product-quantity-modal-body-top {
+	    display: block;
+	    justify-content: space-between;
+	}
+	.product-quantity-modal-body-info {
+	    padding: 0px 0px;
+	    margin-top: 15px;
+	}
+	.product-quantity-additional-item-name h5, .product-quantity-additional-top h5 {
+	    font-size: 16px;
+	    font-weight: 400;
+	    color: #031224;
+	}
+	.product-quantity-additional-item-name span, .product-quantity-additional-top span {
+	    font-size: 12px;
+	}
+	.product-quantity-additional-wraper {
+	    margin-top: 40px;
+	    padding: 0px 0px;
+	}
+	.footer-bottom-midle {
+	    margin-right: 100px;
+	    margin-top: 50px;
+	}
+	.home-header-slider-item > img {
+	    width: 130%;
+	}
+	.home-header-slider-item:after {
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    top: 0;
+	    background: #e7e7e791;
+	}
+	.home-header-slider-item .container {
+	    z-index: 1;
+	}
+	.home-header-slider-content {
+	    text-align: center;
+	}
+	.find-delivery-address-wraper {
+	    width: 498px;
+	    height: 50px;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	}
+	.find-delivery-address-icon input {
+	    border: 0px;
+	    width: 192px;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+	.populer-categories-item img {
+	    width: 70px;
+	    height: 70px;
+	    margin-bottom: 22px;
+	}
+	.home-header-slider-item > img {
+	    width: 160%;
+	}
+	.how-it-work-wraper > div {
+	    width: 32%;
+	    text-align: center;
+	}
+	.how-it-work-item-image {
+	    width: 80px;
+	    height: 80px;
+	}
+	.how-it-work-item img {
+	    width: auto;
+	    height: 28px;
+	}
+	.how-it-work-item-image {
+	    width: 80px;
+	    height: 80px;
+	    margin-bottom: 25px;
+	}
+	.call-to-action-double-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.call-to-action-double-wraper > div {
+	    width: 100%;
+	    position: relative;
+	    z-index: 1;
+	}
+	.local-restaurants-home-item a {
+	    width: 190px;
+	    padding: 7px !important;
+	}
+	.local-restaurants-home-item-rating {
+	    margin-top: 2px;
+	    display: flex;
+	    align-items: center;
+	}
+	.restaurants-top h6 {
+	    font-size: 14px;
+	}
+	.general-page-main-content {
+	    background: #f5f5f5;
+	    padding: 30px 25px;
+	}
+	.form-wraper {
+	    width: 440px;
+	    padding: 35px 40px;
+	}
+	.driver-signup-header-content-wraper {
+	    display: block;
+	}
+	.driver-signup-header-content-left {
+	    max-width: 630px;
+	    margin-right: 0;
+	    text-align: center;
+	    margin-bottom: 40px;
+	}
+	.driver-signup-header-content-left h2 {
+	    font-size: 35px;
+	}
+	.deliver-when-you-want .how-it-work-item {
+	    margin-bottom: 15px;
+	}
+	.deliver-when-you-want-footer {
+	    width: 100%;
+	    margin-top: 10px;
+	}
+
+
+	/* new */
+	.relax-section .container .text-side h2 {
+        font-size: 25px;
+    }
+
+    .footer-cities-wraper span {
+	    width: 32%;
+	    margin-bottom: 7px;
+	}
+	.footer-bottom-left-item {
+	    margin-right: 50px;
+	}
+
+
+
+	.restaurant-product-card {
+		width: 31%;
+		margin-bottom: 3.5%;
+	}
+
+	.restaurant-top-details {
+		min-height: 300px;
+		padding: 0px;
+	}
+	.restaurant-top-details .restaurant-data {
+		background: rgba(255, 255, 255, 0.822);
+		border-radius: 0;
+		width: 100%;
+	}
+
+	.restaurant-options-wrap {
+		padding: 30px 0 0;
+		flex-wrap: wrap;
+	}
+	.restaurant-options-wrap .order-ability-details {
+		margin: 15px 0 0 -25px;
+		width: 100%;
+	}
+
+
+	.location-map {
+		height: 200px;
+	}
+
+	.delivery-progress-wrap {
+		max-width: 400px;
+		margin: 40px auto 70px;
+	}
+	.delivery-progress-step {
+		display: flex;
+		margin: 20px auto;
+		flex-direction: column;
+	}
+	.delivery-progress-step .single-step::before {
+		height: 100%;
+		width: 3px;
+		top: 0px;
+		left: 7px;
+	}
+	.delivery-progress-step .single-step .inner {
+		display: flex;
+	}
+	.delivery-progress-step .single-step .inner p {
+		margin: 0 0 0 10px;
+	}
+	.delivery-progress-step .single-step {
+		padding-bottom: 30px;
+		width: 100% !important;
+	}
+	.delivery-way-details {
+		margin: 30px 0 0;
+	}
+
+	.food-category-slider-item img {
+		width: 40px !important;
+	}
+
+	.logo-group {
+		width: 86px !important;
+	}
+	.logo-group.mobile-icon {
+		width: 32px;
+	}
+
+	.food-category-slider {
+		padding: 0px 0px 0px !important;
+		margin: -10px 0 -10px;
+	}
+
+
+	.logo h4 {
+		margin: 2px 0 0;
+		font-size: 11px;
+	}
+	.le-content {
+	    max-width: calc(100% - 0px);
+	    min-width: calc(100% - 0px);
+	    width: calc(100% - 0px);
+	}
+	.product-show-section .container-fluid {
+	    width: 100%;
+	    padding: 0;
+	}
+	.restaurant-options-wrap-desktop{
+		display: none;
+	}
+	.order-ability-details-list {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 15px;
+	}
+	.order-ability-details-list ul {
+	    display: flex;
+	    margin-bottom: 0px;
+	    padding-left: 0px;
+	    margin-top: 20px;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.restaurant-options-wrap-left {
+	    display: flex;
+	    align-items: center;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+	.restaurant-options-wrap .button img {
+	    margin-right: 0px;
+	}
+	.restaurant-options-wrap-left a {
+	    margin-right: 15px;
+	}
+	.order-ability-details-list ul {
+	    margin-top: 0px;
+	}
+	.restaurant-now-main-flex {
+	    display: block;
+	    justify-content: space-between;
+	    margin-top: 20px;
+	    margin-bottom: 35px;
+	}
+	.restaurant-now-top-title h2 {
+	    font-size: 30px;
+	    font-weight: 700;
+	    line-height: 52px;
+	}
+	.restaurant-now-top-title {
+	    display: block;
+	    align-items: center;
+	    justify-content: space-between;
+	    margin-bottom: 15px;
+	}
+	.restaurants-now-search {
+	    position: relative;
+	    display: none;
+	}
+	.restaurant-rating-and-time {
+	    display: none;
+	}
+	.restaurant-top-details .restaurant-data {
+	    padding: 15px 20px;
+	    border-radius: 10px;
+	    margin-bottom: 15px;
+	}
+	.restaurant-top-details {
+	    min-height: 200px;
+	    padding: 0px;
+	}
+	.restaurants-cart-items {
+	    border: 1px solid #E8E8E8;
+	    width: 100%;
+	    display: flex;
+	    background: #FAFAFA;
+	    border-radius: 12px;
+	    overflow: hidden;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	.restaurants-cart-items-image {
+	    width: 240px;
+	    min-width: 115px;
+	}
+	.restaurants-cart-items h4 {
+	    font-size: 20px;
+	    font-weight: 600;
+	}
+	.restaurants-cart-items-info h3 {
+	    font-size: 20px;
+	    font-weight: 700;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.restaurant-options-wrap.restaurant-options-wrap-mobile {
+	    display: block;
+	}
+	.restaurants-cart-items {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    height: 145px;
+	}
+	.le-sidebar {
+	    padding-top: 43px;
+	    display: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	.popupsearch.show{
+		opacity: 1;
+		visibility: visible;
+	}
+	.menu-header .hamburger {
+		margin-right: 0 !important;
+	}
+	#select-location{
+		padding-bottom: 3px !important;
+	} 
+	.signin-btn a {
+		margin-left: 0 !important;
+	}
+	.circle-logo {
+		display: flex !important;
+		align-items: center !important;
+		margin-left: 10px !important;
+	} 
+
+
+}
+
+@media (max-width: 575.98px) {
+	a.navbar-brand img {
+	    width: 185px;
+	}
+	a.nav-link {
+	    font-size: 15px;
+	}
+	a.nav-link.nav-btn {
+	    border-radius: 30px;
+	    padding-left: 17px !important;
+	    padding-right: 17px !important;
+	    margin-left: 10px;
+	}
+	.header-content-form h1 br {
+	    display: none;
+	}
+	.header-content-form h1 {
+	    font-size: 35px;
+	    line-height: 45px;
+	    margin-bottom: 20px;
+	}
+	.deliver-address-input input {
+	    width: 100%;
+	    padding: 15px 0px;
+	    padding-left: 40px;
+	}
+	.deliver-address-input > img {
+	    width: 12px;
+	    position: absolute;
+	    top: 50%;
+	    left: 11px;
+	    transform: translate(0px, -50%);
+	}
+	.deliver-address-input input {
+	    font-size: 16px;
+	}
+	.deliver-address-input .dropdown button {
+	    font-size: 16px;
+	    width: 160px;
+	}
+	.deliver-address-input .dropdown button img {
+	    position: absolute;
+	    left: 9px;
+	    width: 16px;
+	}
+	.deliver-address-input a.dropdown-item {
+	    color: #000;
+	    font-size: 16px;
+	    padding: 10px 8px;
+	}
+	a.dropdown-item img {
+	    margin-right: 12px;
+	    width: 16px;
+	}
+	.deliver-address-input ul.dropdown-menu.show {
+	    min-width: 160px;
+	    border-radius: 0px;
+	    border: none;
+	    top: -2px !important;
+	    padding: 0;
+	}
+	.category-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	a.category-item {
+	    width: 90px;
+	    height: 90px;
+	    border-radius: 68px;
+	    display: block;
+	    padding: 10px;
+	    text-align: center;
+	    margin-bottom: 14px;
+	}
+	a.category-item span {
+	    display: block;
+	    width: fit-content;
+	    text-align: center;
+	    font-size: 14px;
+	    font-weight: 500;
+	    color: #0a0a0a;
+	    width: 100%;
+	}
+	.header-content-form {
+	    margin-top: 60px;
+	    position: relative;
+	    margin-bottom: 25px;
+	}
+	.perks-and-partner-content-top {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-bottom: 20px;
+	    min-height: inherit;
+	    align-items: flex-end;
+	    width: 500px;
+	    max-width: 100%;
+	}
+	section#local-restaurants {
+	    padding: 50px 0px;
+	    padding-bottom: 10px;
+	}
+	.perks-and-partner-content {
+	    margin-top: 30px;
+	}
+	.footer-bottom-left-item {
+	    margin-right: 25px;
+	}
+	.footer-bottom-left-item a {
+	    font-size: 14px;
+	}
+	.footer-bottom-left-item h4 {
+	    font-size: 17px;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+	}
+	.footer-cities-wraper a {
+	    font-size: 14px;
+	}
+	.footer-cities h4 {
+	    font-size: 17px;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+	}
+	.call-to-action-content h2 {
+	    font-size: 28px;
+	}
+	.newslater-wraper h3 {
+	    font-size: 18px;
+	}
+	.food-category-slider-top {
+	    padding: 0px 45px;
+	}
+	.header-inner-menu {
+	    align-items: flex-start;
+	    flex-wrap: wrap;
+	}
+	.header-inner-menu-left {
+	    width: 100%;
+	}
+	.header-inner-menu-right {
+	    width: 100%;
+	    margin-top: 20px;
+	}
+	.menu-header .search-box {
+		margin-right: 15px;
+		margin-left: 15px !important;
+		position: relative;
+	}
+	.header-inner-menu {
+	    align-items: flex-start;
+	    flex-wrap: wrap;
+	    margin-left: 0;
+	}
+	.logo {
+		
+	}
+	.sidebar-menu {
+	    position: absolute;
+	    left: 0px;
+	    top: 7px;
+	}
+	.filter-options-wraper a {
+	    background: #ededed;
+	    margin-left: 0;
+	    margin-right: 5px;
+	    padding: 6px 10px;
+	    border-radius: 22px;
+	    color: #000;
+	    font-weight: 600;
+	    font-size: 11px;
+	    margin-bottom: 10px;
+	}
+	.listing-title-with-slider {
+	    display: block;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+	.restaurants-top {
+	    display: flex;
+	    align-items: center;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+	.restaurants-menu-main-title {
+	    width: 100%;
+	    margin-top: 15px;
+	    margin-bottom: 10px;
+	}
+	.restaurants-menu-main-title h3 {
+	    font-size: 28px;
+	}
+	.header-menu-left a svg {
+	    width: 20px;
+	}
+	.header-menu-center img {
+	    width: 50px;
+	}
+	.search-box input {
+	    font-size: 14px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    background: #f5f5f58a;
+	}
+	.restaurants-menu-lists a {
+	    font-size: 14px;
+	}
+	.product-quantity-modal-body-image img {
+	    width: 190px;
+	    border-radius: 10px;
+	}
+	div#productQuantityModal .restaurants-cart-item-quantity button {
+	    background: #f27327;
+	    border: none;
+	    border-radius: 5px;
+	    width: 30px;
+	    height: 30px;
+	}
+	div#productQuantityModal .restaurants-cart-item-quantity button svg {
+	    width: 15px;
+	    height: auto;
+	}
+	div#productQuantityModal .restaurants-cart-item-quantity {
+	    margin-top: 25px;
+	    width: 110px;
+	}
+	.restaurants-top h2 {
+	    font-size: 25px;
+	    margin-bottom: 5px;
+	    text-align: left;
+	}
+	.restaurants-top h6 {
+	    font-size: 14px;
+	    text-align: left;
+	    margin-left: 0;
+	}
+	.listing-item-wraper {
+	    width: 100%;
+	    margin: 10px auto;
+	}
+	.filter-options-wraper {
+	    justify-content: center;
+	}
+	.sec-title-l h1 {
+	    text-align: left;
+	}
+	.promotion-slider-controler {
+	    position: relative;
+	    width: 100px;
+	    height: 55px;
+	    margin-left: auto;
+	}
+	.listing-item--controler {
+	    position: relative;
+	    top: -20px;
+	}
+	.listing-title-with-slider {
+	    display: block;
+	    align-items: center;
+	    justify-content: space-between;
+	    margin-bottom: -20px;
+	}
+	.footer-bottom-midle {
+	    margin-right: 0px;
+	    margin-top: 50px;
+	}
+	.find-delivery-address-wraper {
+	    width: 350px;
+	    height: 50px;
+	    margin-top: 20px;
+	}
+	.find-delivery-address-wraper {
+	    flex-wrap: wrap;
+	}
+	.find-delivery-address-icon {
+	    display: flex;
+	    align-items: center;
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	.find-delivery-address-wraper {
+	    width: 100%;
+	    height: auto;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	    display: flex;
+	    background: no-repeat;
+		box-shadow: none;
+	}
+	.find-delivery-address-icon input {
+	    border: 0px;
+	    width: 100%;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+	.home-header-slider-item > img {
+	    width: 100%;
+	}
+	.home-header-slider-content h1 {
+		font-size: 30px;
+		font-weight: 600;
+		margin-top: 8px;
+		line-height: 35px;
+	}
+	.populer-categories-item img {
+	    width: 160px;
+	    height: 160px;
+	    margin-bottom: 22px;
+	}
+	.how-it-work-wraper {
+	    flex-wrap: wrap;
+	}
+	.how-it-work-wraper > div {
+	    width: 51%;
+	    text-align: center;
+	    margin-bottom: 25px;
+	}
+	.local-restaurants-home-wraper > div {
+	    width: 100%;
+	}
+	.local-restaurants-home-item a {
+	    width: 220px;
+	    padding: 7px !important;
+	}
+	section#local-restaurants-home {
+	    padding-bottom: 0;
+	}
+	.restaurants-name-and-opening-time {
+	    display: block;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.booking-type {
+	    justify-content: center;
+	}
+	.find-delivery-address-icon {
+		background: #fff;
+		padding: 20px 15px;
+		border-radius: 5px;
+		margin-right: 0;
+		box-shadow: 0px 18px 75px rgba(0, 0, 0, 0.1);
+	}
+
+	.home-header-slider-item .container {
+		max-width: 100% !important;
+		padding: 0 0px 47%;
+	}
+
+
+	.find-delivery-address-wraper .dropdown {
+	    position: relative;
+	    width: 100%;
+	    background: white;
+	    padding: 7px;
+	    border-radius: 5px 5px 5px 5px;
+	    margin-bottom: 10px;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    width: 100%;
+	    font-size: 14px;
+	    padding: 16px 10px;
+	}
+	.find-delivery-button {
+	    background: white;
+	    padding: 8px;
+	    width: 100%;
+	    border-radius: 5px 5px 5px 5px;
+	    margin-left: -1px;
+	}
+	.find-delivery-button button {
+		width: 100%;
+		font-size: 14px;
+		padding: 20px 0px;
+		margin-left: 0;
+	}
+	.find-delivery-address-wraper ul.dropdown-menu.show {
+		min-width: 100%;
+		border-radius: 0px;
+		border: none;
+		top: 0px !important;
+		position: relative;
+		padding: 1px 7px 5px;
+		margin-left: -7px !important;
+	}
+	.booking-type {
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    display: none;
+	}
+	.restaurants-top-info {
+	    width: 100%;
+	    margin-top: 20px;
+	    display: none;
+	}
+	.restaurants-header-image img {
+	    width: 95%;
+	    min-height: 100%;
+	    border-radius: 10px;
+	}
+	.booking-type img {
+	    height: 12px;
+	    margin-left: 10px;
+	}
+	.booking-type h5 {
+	    font-size: 15px;
+	}
+	.mobile-header{
+	    display: block;
+	}
+	.desktop-header{
+		display: none;
+	}
+	.home-header-slider-item:after{
+		display: none;
+	}
+	.populer-categories-wraper a {
+	    border-radius: 10px;
+	    padding: 30px 5px;
+	    width: 60%;
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	    margin-top: 15px;
+	}
+	.populer-categories-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.populer-categories-item h5 {
+	    font-size: 22px;
+	}
+	img.logo-desktop {
+	    display: none;
+	}
+	img.logo-icon{
+	    display: block;
+	}
+	.header-menu-home img {
+	    width: 50px !important;
+	}
+	.mobile-menu-header {
+	    display: block !important;
+	}
+	section.header-menu {
+	    padding: 15px 0px;
+	    background: #fff;
+	    display: none;
+	}
+	.mobile-menu-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	.mobile-menu-wraper > a img {
+	    width: 45px;
+	}
+	.mobile-menu-wraper svg {
+	    width: 15px;
+	}
+	.mobile-menu-wraper > a{
+		margin-right: 14px;
+	}
+	.header-menu-wraper > div {
+	    width: 100%;
+	    text-align: center;
+	}
+	.mobile-menu-wraper > a img {
+	    width: 35px;
+	}
+	.cart-btn a {
+	    position: relative;
+	    background: #000000;
+	    padding: 2px 10px;
+	    border-radius: 25px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+	.select-location {
+	    text-align: left !important;
+	    margin-left: 0;
+	    margin-top: 7px;
+	}
+	.select-location select {
+	    margin-left: 0;
+	    border: 0px !important;
+	    background: transparent;
+	    position: relative;
+	    top: 4px;
+	    font-size: 14px;
+	}
+	.promotion-slider-item {
+	    height: 130px;
+	}
+	.col-6.col-lg-3.col-md-4.col-sm-6 {
+	    padding-right: 5px;
+	    padding-left: 5px;
+	}
+	.listing-item-footer p:nth-child(2){
+		display: none;
+	}
+	.promotion-slider-controler {
+	    position: relative;
+	    width: 100px;
+	    height: 55px;
+	    margin-left: auto;
+	    display: none;
+	}
+	.sec-title-l {
+	    margin-bottom: 20px;
+	}
+	.select-location svg {
+	    display: none;
+	}
+	.general-page-header-content h1 {
+	    font-size: 30px;
+	}
+	.general-page-header-bradcumb a {
+	    font-size: 14px;
+	}
+	.general-page-main-content-top h2 {
+	    font-size: 20px;
+	}
+	.general-page-main-content-item h4 {
+	    font-size: 18px;
+	}
+	.form-wraper {
+	    width: 350px;
+	    padding: 30px 30px;
+	}
+	.form-wraper h4 {
+	    font-size: 22px;
+	}
+	.form-wraper button {
+	    height: 45px;
+	    font-size: 14px;
+	}
+	.form-wraper button img {
+	    height: 20px;
+	    position: absolute;
+	    left: 20px;
+	}
+	.input-wraper input {
+	    height: 45px;
+	    font-size: 14px;
+	    padding: 10px 15px;
+	}
+	.checkmark-label {
+	    font-size: 14px;
+	    padding-left: 28px;
+	}
+	.checkmark {
+	    height: 20px;
+	    width: 20px;
+	}
+	.checkmark-label .checkmark:after {
+	    left: 7px;
+	    top: 3px;
+	}
+	button.login-btn {
+	    font-size: 18px;
+	    margin-top: 0px;
+	    margin-bottom: 10px;
+	}
+	section.login-form-wraper {
+	    padding: 60px 0px;
+	}
+	.driver-signup-header .form-wraper {
+	    width: 375px;
+	}
+	section.header-menu.sticky-top.only-logo-left {
+	    display: block;
+	}
+	section.header-menu.sticky-top.only-logo-left img.logo-desktop {
+	    display: block;
+	    width: 160px;
+	}
+	section.general-page-header {
+	    background: #181617;
+	    text-align: center;
+	    padding: 60px 0px;
+	}
+	section.header-menu.header-menu-home {
+	    display: block !important;
+	}
+
+
+
+	/* new */
+	.form-fill-section .fill-form h2 {
+        font-size: 20px;
+        margin: 0 0 25px;
+    }
+
+    .form-fill-section .fill-form {
+        padding: 30px 20px;
+    }
+    .form-model .single-input .input {
+        min-height: 45px;
+        padding: 0 15px;
+        font-size: 13px;
+    }
+    .form-model .single-input.sign-option .input {
+        padding-left: 60px;
+    }
+    .form-model .single-input label {
+        font-size: 14px;
+    }
+
+    .form-fill-section .fill-form .bottom-texts p {
+        font-size: 14px;
+    }
+
+    .bg-form-fill-section .text-side h2 {
+        font-size: 30px;
+    }
+
+    .fill-form h2 {
+        font-size: 28px;
+        margin: 0 0 30px;
+    }
+
+    .bg-form-fill-section .fill-form {
+        padding: 40px 15px;
+    }
+
+    .fill-form .bottom-texts p {
+        font-size: 14px;
+    }
+
+
+    .section-title h2 {
+        font-size: 25px;
+        padding: 0 0 16px;
+    }
+
+    .relax-section .container .text-side h2 {
+        font-size: 20px;
+    }
+
+
+    .footer-bottom-left-item {
+	    margin-right: 25px;
+	}
+	.footer-bottom-left-item a {
+	    font-size: 14px;
+	}
+	.footer-bottom-left-item h4 {
+	    font-size: 17px;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+	}
+	.footer-cities-wraper a {
+	    font-size: 14px;
+	}
+	.footer-cities h4 {
+	    font-size: 17px;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+	}
+
+    .fill-form .bottom-texts p {
+        font-size: 13px;
+    }
+
+	.default-button {
+		font-size: 12px;
+		min-height: 30px;
+		padding: 0px 12px;
+	}
+
+	.logo img {
+		width: 160px;
+		margin-top: -7px;
+	}
+	
+
+	
+
+
+	.order-confirmation-section .heading-data h3 {
+		font-size: 15px;
+		margin: 0 0 10px;
+	}
+	.order-confirmation-section .heading-data {
+		padding: 16px 15px 10px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.order-details-wrap .order-item {
+		padding: 14px 10px;
+		flex-wrap: wrap;
+		position: relative;
+		justify-content: space-between;
+	}
+	.order-details-wrap .order-item .text-details {
+		padding-right: 0px;
+		width: 100%;
+		margin: 0 0 10px;
+	}
+	.order-details-wrap .order-item .text-details h3 {
+		padding-left: 18px;
+	}
+	.order-details-wrap .order-item .number {
+		width: 25px;
+		font-size: 14px;
+		padding-right: 0;
+		position: absolute;
+		top: 12px;
+		left: 11px;
+		text-align: left;
+	}
+	.order-details-wrap .order-item .price {
+		margin-left: 10px;
+		width: 55px;
+		text-align: right;
+	}
+	.order-details-wrap {
+		margin: 25px 0 0;
+		padding: 15px 15px;
+		border-radius: 5px;
+	}
+	.driver-tip {
+		padding: 30px 0px;
+	}
+
+	.product-show-section .section-title h2 {
+		font-size: 20px;
+	}
+
+	.owl-arrow2 .owl-nav button {
+		font-size: 15px !important;
+	}
+	.product-show-slider .owl-nav {
+		top: -34px;
+	}
+	.product-show-slider {
+		margin: 0 0 45px;
+	}
+	.product-show-section {
+		padding: 0px 0 0;
+	}
+
+	.restaurant-top-details .restaurant-data {
+	    padding: 10px 10px;
+	}
+	.restaurant-top-details {
+		min-height: 230px;
+		width: 100%;
+	}
+
+	.restaurant-product-card {
+		width: 47%;
+		margin-bottom: 5.5%;
+	}
+
+	.logo h4 {
+		margin: -1px 0 0;
+		font-size: 11px;
+	}
+
+	.circle-logo img {
+	    width: 110px !important;
+	}
+	.circle-logo h4 {
+		margin: 1px 0px -2px 5px;
+		font-size: 10px;
+	}
+
+	
+	#select-location {
+		font-size: 14px;
+	}
+
+	.food-category-slider-item img {
+		width: 30px !important;
+	}
+	.food-category-slider-item h6 {
+		font-size: 10px;
+		margin-top: 8px;
+	}
+
+
+	.filter-options-wraper2 {
+		margin-bottom: 9px !important;
+	}
+
+	.food-category-slider .owl-nav {
+		display: none;
+	}
+
+
+	.restaurant-category-slider .single-category {
+		width: 18%;
+	}
+	.restaurant-category-slider .single-category:nth-child(6),
+	.restaurant-category-slider .single-category:nth-child(7),
+	.restaurant-category-slider .single-category:nth-child(8),
+	.restaurant-category-slider .single-category:nth-child(9){
+		display: none;
+	}
+
+	.find-delivery-address-wraper .dropdown button:after {
+	    width: 8px;
+	    height: 8px;
+	    right: 10px;
+	}
+	.find-delivery-address-wraper .dropdown img {
+	    width: 15px;
+	    position: relative;
+	    top: 1px;
+	    margin-right: 10px;
+	}
+	.map-wraper {
+	    margin-top: 0px;
+	    margin-bottom: -6px;
+	}
+	.home-header-slider-content h4 {
+	    font-size: 17px;
+	    text-align: left;
+	    margin-left: 20px;
+	}
+	.home-header-slider-content h1 {
+	    font-size: 30px;
+	    font-weight: 600;
+	    margin-top: 8px;
+	    line-height: 35px;
+	    text-align: left;
+	    margin-left: 20px;
+	}
+	.get-perks p {
+	    color: #000;
+	    font-size: 16px;
+	    margin-top: 0px;
+	    font-weight: 300;
+	    text-align: left;
+	    margin-left: 10px;
+	}
+	.get-perks {
+	    margin-top: 5px;
+	}
+	.order-ability-details-list li {
+	    list-style: none;
+	    margin-left: 20px;
+	    font-size: 12px;
+	    font-weight: 300;
+	    position: relative;
+	}
+	.order-ability-details-list li:after {
+	    position: absolute;
+	    content: '';
+	    width: 6px;
+	    height: 6px;
+	    background: #D9D9D9;
+	    border-radius: 100%;
+	    top: 50%;
+	    left: -10px;
+	    transform: translate(-50%, -50%);
+	}
+	.restaurant-now-left a {
+	    font-size: 14px;
+	    font-weight: 500;
+	}
+	.restaurants-cart-items h4 {
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.restaurants-cart-items-info h3 {
+	    font-size: 20px;
+	    font-weight: 700;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.restaurants-cart-items-image a, .restaurants-cart-item-without-image a {
+	    position: absolute;
+	    bottom: 10px;
+	    right: 10px;
+	    background: #fff;
+	    padding: 3px 10px;
+	    border-radius: 30px;
+	    font-size: 12px;
+	    font-weight: 500;
+	    color: #fd9435;
+	}
+	.restaurants-cart-items-image a i, .restaurants-cart-item-without-image a i {
+	    width: 15px;
+	    height: 15px;
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    border-radius: 100%;
+	    background: #fd9435;
+	    color: #fff;
+	    padding-top: 2px;
+	    margin-left: 5px;
+	    font-size: 10px;
+	    box-shadow: 0px 4px 5px 1px #fd943566;
+	}
+	.mobile-option .container {
+	    display: block;
+	}
+	#select-location {
+	    font-size: 14px;
+	    justify-content: center;
+	}
+	.menu-header .search-box {
+	    margin-right: 15px;
+	    margin-left: 0px !important;
+	    position: relative;
+	}
+	.cart-dropdown-supon .dropdown-menu {
+	    width: 290px;
+	    padding: 10px;
+	    top: 4px !important;
+	}
+	.restaurants-cart-items {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    height: 140px;
+	}
+	p.cart-restaurant-name {
+	    position: absolute;
+	    bottom: 0px;
+	    right: 10px;
+	    font-size: 11px;
+	    color: #fc7c04;
+	}
+	.promotion-slider-content h6 {
+	    font-size: 15px;
+	    display: none;
+	}
+}
+
+
+
+@media (max-width: 460px) {
+	.find-delivery-address-wraper .dropdown button {
+	    width: 100%;
+	    font-size: 14px;
+	    padding: 16px 10px;
+	}
+	.driver-tip .driver-tip-inner {
+		flex-wrap: wrap;
+	}
+	.driver-tip .driver-tip-inner .driver-tip-enter {
+		margin: 15px 0 0 0px;
+		width: 200px;
+	}
+	.order-confirmation-section {
+		padding: 40px 0 30px;
+	}
+
+	.food-category-slider-top {
+		padding: 0px 15px;
+	}
+	.food-category-slider .owl-nav {
+		width: 113%;
+	}
+	.owl-arrow1 .owl-nav button:hover {
+		color: #000 !important;
+		background: transparent !important;
+	}
+
+	.delivery-way-inner {
+		flex-direction: column;
+	}
+	.delivery-way-inner .man-content {
+		padding: 14px 0 0 0px;
+	}
+	.delivery-way-inner .man-content .bottom ul li a {
+		font-size: 12px;
+	}
+
+	
+	.product-card {
+		width: 100% !important;
+	}
+	.product-show-slider .product-card:nth-child(4),
+	.product-show-slider .product-card:nth-child(5) {
+		display: none;
+	}
+
+	.promotion-slider-item {
+		width: 100%;
+	}
+	.promotion-slider-item:nth-child(2) {
+		display: none;
+	}
+
+	.food-category-slider-item a {
+		color: #323232;
+	}
+
+
+	.food-category-slider-item:nth-child(6),
+	.food-category-slider-item:nth-child(7),
+	.food-category-slider-item:nth-child(8),
+	.food-category-slider-item:nth-child(9){
+		display: none;
+	}
+	.get-perks {
+	    display: none;
+	}
+	.address-dropdown-list .filter-label {
+	    font-size: 14px;
+	}
+	.address-dropdown-list small {
+	    display: block;
+	    font-size: 10px;
+	}
+	.address-dropdown h4 {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	a.saved-address {
+	    font-size: 14px;
+	}
+	.restaurant-now-top-title h2 {
+	    font-size: 22px;
+	    font-weight: 700;
+	    line-height: 40px;
+	}
+
+}
+
+
+
+@media (max-width: 425px) {
+	a.navbar-brand img {
+	    width: 150px;
+	}
+	a.nav-link.nav-btn {
+	    border-radius: 30px;
+	    padding-left: 5px !important;
+	    padding-right: 5px !important;
+	    margin-left: 3px;
+	    font-size: 13px;
+	    border-radius: 5px;
+	}
+	a.navbar-brand img {
+	    width: 130px;
+	}
+	a.navbar-brand {
+	    display: flex;
+	    align-items: center;
+	}
+	li.nav-item {
+	    display: flex;
+	    align-items: center;
+	}
+	.header-content-form h1 {
+	    font-size: 32px;
+	    line-height: 45px;
+	    margin-bottom: 20px;
+	}
+	.deliver-address-input .dropdown {
+	    position: inherit;
+	    right: 0;
+	    top: 0;
+	    transform: inherit;
+	    height: 50px;
+	    background: red;
+	    width: 100%;
+	}
+	.deliver-address-input .dropdown button {
+	    font-size: 16px;
+	    width: 100%;
+	    box-shadow: 0px 5px 4px 1px #202020ad;
+	    padding-left: 0;
+	}
+	.deliver-address-input > img {
+	    width: 12px;
+	    position: absolute;
+	    top: 28px;
+	    left: 11px;
+	    transform: translate(0px, -50%);
+	}
+	.deliver-address-input input {
+	    font-size: 16px;
+	    text-align: center;
+	    padding-left: 0;
+	}
+	.find-food-wraper form > button {
+	    font-size: 16px;
+	    margin-top: 13px;
+	}
+	.deliver-address-input ul.dropdown-menu.show {
+	    min-width: 100%;
+	    border-radius: 0px;
+	    border: none;
+	    top: -2px !important;
+	    padding: 0;
+	}
+	.deliver-address-input a.dropdown-item {
+	    color: #000;
+	    font-size: 16px;
+	    padding: 10px 8px;
+	    width: 100%;
+	    justify-content: center;
+	}
+	a.dropdown-item img {
+	    margin-right: 12px;
+	    width: 16px;
+	    position: absolute;
+	    left: 0px;
+	}
+	.sec-title h2 {
+	    font-size: 30px;
+	}
+	.sec-title-l h1 {
+	    font-size: 22px;
+	}
+	.perks-and-partner-content-top h3 {
+	    font-size: 20px;
+	    font-weight: 600;
+	}
+	/*Developed By Kamrul H Supon*/
+	.perks-and-partner-content-top a {
+	    font-size: 15px;
+	    background: #f17228;
+	    padding: 4px 12px;
+	    font-weight: 500;
+	    color: #fff;
+	    border-radius: 5px;
+	}
+	.footer-cities-wraper span {
+	    width: 49%;
+	    margin-bottom: 3px;
+	}
+	.footer-cities-wraper a {
+	    font-size: 13px;
+	}
+	.footer-bottom-left {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.footer-bottom-left-item {
+    	margin-right: 0px;
+	    width: 50%;
+	    margin-bottom: 35px;
+	}
+	.footer-bottom-right {
+	    margin-top: 0px;
+	}
+	.newslater-form form {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.newslater-form button {
+	    padding: 8px 15px;
+	    min-width: 100%;
+	    margin-left: 0;
+	    margin-top: 10px;
+	}
+	a.category-item {
+	    width: 65px;
+	    height: 75px;
+	    border-radius: 25px;
+	    display: block;
+	    padding: 10px;
+	    text-align: center;
+	    margin-bottom: 14px;
+	}
+	a.category-item span {
+	    font-size: 10px;
+	}
+	.current-location h5 {
+	    font-size: 14px;
+	}
+	.select-location select {
+	    font-size: 14px;
+	}
+	section.product-listing .sec-title-l {
+	    margin-bottom: 0px;
+	}
+	.restaurants-menu-items-image img {
+	    width: 90px;
+	    min-height: 100px;
+	}
+	.restaurants-menu-items-text h4 {
+	    font-size: 15px;
+	}
+	.restaurants-menu-items-text p {
+	    font-size: 12px;
+	    line-height: 17px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.restaurants-menu-items-price-and-btn button {
+	    width: 29px;
+	    border-radius: 15px;
+	    font-size: 10px;
+	}
+	.restaurants-menu-items-text {
+	    padding-left: 12px;
+	    padding-right: 10px;
+	}
+	.restaurants-header-image {
+	    height: 130px;
+	}
+	.header-menu-wraper > div {
+	    width: 100%;
+	    text-align: center;
+	}
+	.header-menu-center {
+	    margin-top: 5px;
+	    text-align: center !important;
+	    order: 3;
+	}
+	section.header-menu {
+	    padding: 15px 0px;
+	    background: #fff;
+	}
+	.restaurants-cart-wraper {
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-top: 50px;
+	}
+	.restaurants-top h2 {
+	    font-size: 25px;
+	}
+	.restaurants-top h6 {
+	    font-size: 14px;
+	    margin-left: 30px;
+	    margin-top: 10px;
+	}
+	.product-delivery-type-delivery h5 {
+	    font-size: 14px;
+
+	}
+	div#productQuantityModal .modal-body {
+	    padding: 15px;
+	}
+	.product-quantity-modal-body-info h3 {
+	    font-size: 17px;
+	}
+	.product-quantity-modal-body-info h4 {
+	    font-size: 14px;
+	    font-weight: 400;
+	}
+	.product-quantity-modal-body-info h5 {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	.product-quantity-additional-item-name h5, .product-quantity-additional-top h5 {
+	    font-size: 12px;
+	    font-weight: 400;
+	    color: #031224;
+	}
+	.product-quantity-additional-item-name span, .product-quantity-additional-top span {
+	    font-size: 10px;
+	}
+	div#productQuantityModal .restaurants-cart-item-quantity button {
+	    background: #f27327;
+	    border: none;
+	    border-radius: 5px;
+	    width: 25px;
+	    height: 25px;
+	}
+	div#productQuantityModal .restaurants-cart-item-quantity button svg {
+	    width: 13px;
+	    height: auto;
+	}
+	div#productQuantityModal .restaurants-cart-item-quantity {
+	    margin-top: 25px;
+	    width: 100px;
+	}
+	.product-quantity-modal-cart-btn button {
+	    font-size: 14px;
+	}
+	.product-quantity-modal-cart-btn {
+	    text-align: center;
+	}
+	.product-quantity-modal-body-info > div {
+	    margin-bottom: 7px;
+	}
+	.modal-close button {
+	    border: none;
+	    background: transparent;
+	    position: absolute;
+	    right: 10px;
+	    top: 5px;
+	    z-index: 10;
+	}
+	.modal-close button img {
+	    width: 25px;
+	}
+	.footer-bottom-midle {
+	    margin-right: 0px;
+	    margin-top: 0px;
+	    margin-bottom: 30px;
+	}
+	.populer-categories-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	}
+	.populer-categories-wraper a {
+	    border-radius: 10px;
+	    padding: 30px 5px;
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	    margin-top: 15px;
+	}
+	.see-all-btn a p {
+	    font-size: 15px;
+	    display: none;
+	}
+	.how-it-work-wraper > div {
+	    width: 85%;
+	    text-align: center;
+	    margin-bottom: 25px;
+	}
+	.home-header-slider-content h1 {
+		font-size: 30px;
+	}
+	.call-to-action-double-item-content-left {
+	    width: 100%;
+	}
+	.call-to-action-double-item-content {
+	    width: 90%;
+	    left: 50%;
+	    display: block;
+	    transform: translate(-50%, -8px);
+	}
+	.call-to-action-double-item-content-left p {
+	    font-size: 14px;
+	    font-weight: 300;
+	    margin-top: 5px;
+	    display: none;
+	}
+	.call-to-action-double-item-content-left h4 {
+	    font-size: 20px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	}
+	.call-to-action-double-item-content-right a {
+	    width: 100px;
+	    padding: 7px 1px;
+	    font-size: 14px;
+	}
+	.call-to-action-double-item-content {
+	    width: 90%;
+	    left: 50%;
+	    bottom: inherit;
+	    display: block;
+	    transform: translate(-50%, -50%);
+	    top: 50%;
+	    text-align: center;
+	}
+	.call-to-action-content h2 {
+	    font-size: 20px;
+	}
+	.call-to-action-content a {
+	    margin-top: 20px;
+	    padding: 8px 20px !important;
+	}
+	.header-menu-home .header-menu-center {
+	    margin-top: 0;
+	    text-align: center !important;
+	    order: 1;
+	}
+	.header-menu-home .header-menu-home-right {
+	    order: 2;
+	}
+	a.signup-btn {
+	    font-size: 14px;
+	    letter-spacing: .5px;
+	    padding: 4px 12px;
+	}
+	a.signin-btn {
+	    font-size: 14px;
+	    margin-right: 5px;
+	}
+	.header-menu-home img {
+	    width: 123px;
+	}
+	.booking-type {
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    display: block;
+	}
+	.booking-type p {
+	    width: 100%;
+	    margin-bottom: 10px;
+	    text-align: left;
+	}
+	.booking-type h5 {
+	    display: flex;
+	    align-items: center;
+	    font-size: 13px;
+	    font-weight: 600;
+	    margin-left: 0px;
+	}
+	.restaurants-name-and-opening-time {
+	    display: block;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.restaurants-top h6 {
+	    font-size: 14px;
+	    margin-left: 0;
+	    margin-top: 10px;
+	}
+	.find-delivery-address-wraper {
+	    width: 100%;
+	    height: auto;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	    padding: 10px 10px;
+	    justify-content: center;
+	}
+	.find-delivery-address-wraper .dropdown {
+	    position: relative;
+	    width: 60%;
+	    background: white;
+	    padding: 7px;
+	    border-radius: 5px 5px 5px 5px;
+	    padding-right: 0;
+	}
+	.find-delivery-button {
+	    background: white;
+	    padding: 8px;
+	    width: 40%;
+	    border-radius: 5px 5px 5px 5px;
+	    margin-left: -1px;
+	}
+	.booking-type h5:last-child{
+		display: none;
+	}
+	.form-wraper {
+	    width: 280px;
+	    padding: 30px 30px;
+	}
+	.form-wraper button img {
+	    height: 20px;
+	    position: absolute;
+	    left: 10px;
+	}
+	.input-full span {
+	    font-size: 12px;
+	}
+	.driver-signup-header .form-wraper {
+	    width: 275px;
+	}
+	.input-half {
+	    width: 100%;
+	}
+	.input-wraper {
+	    display: flex;
+	    justify-content: space-between;
+	    margin-bottom: 10px;
+	    flex-wrap: wrap;
+	}
+	.driver-signup-header .input-half {
+	    margin-bottom: 10px;
+	}
+	.driver-signup-header .input-wraper{
+		margin-bottom: 0px;
+	}
+	.driver-signup-header-content-left h2 {
+	    font-size: 30px;
+	}
+
+	.payment-side .float-cards {
+		right: 1px;
+		width: 55px;
+	}
+	.find-delivery-address-wraper .dropdown {
+	    width: 100%;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    width: 98%;
+	}
+	.find-delivery-button {
+	    width: 100%;
+	}
+	.address-dropdown .dropdown-menu {
+	    min-width: 285px;
+	}
+	.order-ability-details-list li {
+	    list-style: none;
+	    margin-left: 20px;
+	    font-size: 11px;
+	    font-weight: 300;
+	    position: relative;
+	}
+
+}
+
+
+
+
+@media (max-width: 390px) {
+	/* new */
+    .logo {
+        margin-left: -10px;
+    }
+    .logo img {
+        width: 140px;
+    }
+
+    .form-fill-section .fill-form {
+        padding: 25px 12px;
+    }
+
+    .bg-form-fill-section .fill-form {
+        padding: 35px 12px;
+    }
+
+    .logo h4 {
+        font-size: 11px;
+        padding-left: 45px;
+		margin: 1px 0 0;
+      }
+    .find-delivery-button button {
+	    width: 100%;
+	    font-size: 14px;
+	    padding: 15px 0px;
+	    margin-left: 0;
+	}
+	.find-delivery-address-wraper .dropdown button {
+	    width: 100%;
+	    font-size: 14px;
+	    padding: 15px 10px;
+	}
+	.find-delivery-address-icon {
+	    background: #fff;
+	    padding: 15px 15px;
+	    border-radius: 5px;
+	    margin-right: 0;
+	    box-shadow: 0px 18px 75px rgb(0 0 0 / 10%);
+	}
+	.home-header-slider-content h1 {
+	    font-size: 27px;
+	}
+	.home-header-slider-content {
+	    text-align: center;
+	    margin-top: 15px;
+	}
+	.cart-dropdown-supon .dropdown-menu {
+	    width: 280px;
+	    padding: 10px;
+	    top: 4px !important;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

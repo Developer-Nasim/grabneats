@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/default-edit.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <title>Grab & Eats</title>
+</head>
+
+<body>
+    <!-- header-section -->
+    <header class="header-section bg-transparent position-absolute border-none">
+        <div class="container">
+            <a href="index.html" class="circle-logo">
+                <img src="images/icon-logo-black.png" alt="">
+              </a>
+            <div class="right-buttons">
+                <a href="login.html" class="default-button bg-transparent color-black">Sign In</a>
+				<a href="signup.html" class="default-button color-white bg-black">SignUp</a>
+            </div>
+        </div>
+    </header>
+    <!--End header-section -->
+
+
+    <!-- Popup search START -->
+    <div class="popupsearch">
+        <button type="button" class="searchBxActOnPhn">X</button>
+        <div class="searchinginpopup">
+            <form action="#">
+                <input type="text" placeholder="Enter delivery address" name="" id="">
+                <button type="button">Search</button>
+            </form>
+        </div>
+        <p>Copyright <b>Grab & Eats 2021</b></p>
+    </div>
+    <!-- Popup search END -->
+
+
+    <!-- <section class="header-menu header-menu-home">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-menu-home">
+              <div class="header-menu-center">
+                <img class="logo-desktop" src="images/logo-yellow.svg" alt="#">
+                <img class="logo-icon" src="images/logo-icon-yellow.svg" alt="#">
+              </div>
+              <div class="header-menu-home-right">
+                <a href="#" class="signin-btn">Sign In</a>
+                <a href="#" class="signup-btn">SignUp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="home-header">
+        <div class="container-fuid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="home-header-slider">
+                        <!-- <div class="home-header-slider-item">
+                <img class="desktop-header" src="images/header1.png" alt="#">
+                <img class="mobile-header" src="images/mobile-header.png" alt="#">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="home-header-slider-content">
+                        <h4>Welcome to <span>Grab & Eats</span></h4>
+                        <h1>Restaurants & more<br>delivered to your door</h1>
+                        <div class="find-delivery-address-wraper">
+                          <div class="find-delivery-address-icon">
+                            <img src="images/icons/location.svg" alt="#">
+                            <input type="text" name="" placeholder="Enter delivery address">
+                          </div>
+                          <div class="dropdown">
+                            <button type="button" id="deliveryType" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="images/icons/time.svg" alt="#">
+                              Delivery Now
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="deliveryType">
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <img src="images/icons/time.svg" alt="#">
+                                  Delivery Now
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#" type="button" data-bs-toggle="modal" data-bs-target="#scheduleModal">
+                                  <img src="images/icons/calendar.svg" alt="#">
+                                  Schedule Time
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="find-delivery-button">
+                            <button type="">Find Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-downs">
+                  <div class="mousey">
+                    <div class="scroller"></div>
+                  </div>
+                </div>
+              </div> -->
+
+                        <div class="home-header-slider-item">
+                            <img class="desktop-header" src="images/header2.png" alt="#">
+                            <img class="mobile-header" src="images/black-mobile-header.png" alt="#">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="home-header-slider-content">
+                                            <h4>Welcome to <span>Grab & Eats</span></h4>
+                                            <h1>Restaurants & more<br>delivered to your door</h1>
+                                            <div class="find-delivery-address-wraper">
+                                                <div class="find-delivery-address-icon">
+                                                    <img src="images/icons/location.svg" alt="#">
+                                                    <input type="text" name="" placeholder="Enter delivery address" class="searchBxActOnPhn">
+                                                </div>
+                                                <div class="dropdown">
+                                                    <button type="button" id="deliveryType" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="images/icons/time.svg" alt="#">
+                              Delivery Now
+                            </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="deliveryType">
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                <img src="images/icons/time.svg" alt="#"> Delivery Now
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#" type="button" data-bs-toggle="modal" data-bs-target="#scheduleModal">
+                                                                <img src="images/calender-new.png" alt="#"> Schedule Time
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="find-delivery-button">
+                                                    <button type="">Find Now</button>
+                                                </div>
+                                            </div>
+                                            <div class="get-perks">
+                                                <p><a href="#">Singup</a> now and get perks</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="scroll-downs">
+                                <div class="mousey">
+                                    <div class="scroller"></div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <!-- <div class="home-header-slider-item home-header-text-white home-header-text-center">
+                <img src="images/header3.png" alt="#">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="home-header-slider-content">
+                        <h4>Welcome to <span>Grab & Eats</span></h4>
+                        <h1>Restaurants & more<br>delivered to your door</h1>
+                        <div class="find-delivery-address-wraper">
+                          <div class="find-delivery-address-icon">
+                            <img src="images/icons/location.svg" alt="#">
+                            <input type="text" name="" placeholder="Enter delivery address">
+                          </div>
+                          <div class="dropdown">
+                            <button type="button" id="deliveryType" data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="images/icons/time.svg" alt="#">
+                              Delivery Now
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="deliveryType">
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <img src="images/icons/time.svg" alt="#">
+                                  Delivery Now
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#" type="button" data-bs-toggle="modal" data-bs-target="#scheduleModal">
+                                  <img src="images/icons/calendar.svg" alt="#">
+                                  Schedule Time
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="find-delivery-button">
+                            <button type="">Find Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="scroll-downs">
+                  <div class="mousey">
+                    <div class="scroller"></div>
+                  </div>
+                </div>
+              </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home-popular-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="listing-title-with-slider section-title2">
+                        <div class="sec-title-l">
+                            <h1>Popular Categories</h1>
+                        </div>
+                        <div class="see-all-btn">
+                            <a href="#">
+                                <p>See all</p>
+                                <span>
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.53846 13.9231L15 7.46154L8.53846 1M14.1026 7.46154H1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="populer-categories-wraper">
+                        <a href="#">
+                            <div class="populer-categories-item">
+                                <img src="images/category1.png" alt="#">
+                                <h5>Fast Food</h5>
+                                <p>75 varians of fast food</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="populer-categories-item">
+                                <img src="images/category2.png" alt="#">
+                                <h5>Sea Food</h5>
+                                <p>75 varians of fast food</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="populer-categories-item">
+                                <img src="images/category3.png" alt="#">
+                                <h5>Local Food Items</h5>
+                                <p>75 varians of fast food</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-work">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="listing-title-with-slider section-title2 justify-content-center">
+                        <div class="sec-title-l">
+                            <h1>How It Works</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="how-it-work-wraper">
+                            <div class="how-it-work-item">
+                                <div class="how-it-work-item-image">
+                                    <img src="images/icons/location2.svg" alt="#">
+                                </div>
+                                <h5>Select Location</h5>
+                                <p>Choose the location where your food will be delivered</p>
+                            </div>
+                            <div class="arrow1">
+                                <img src="images/icons/arrow1.svg" alt="#">
+                            </div>
+                            <div class="how-it-work-item">
+                                <div class="how-it-work-item-image">
+                                    <img src="images/icons/food.svg" alt="#">
+                                </div>
+                                <h5>Choose Order</h5>
+                                <p>Check over hundreds of menus to pick your favorite food</p>
+                            </div>
+                            <div class="arrow1">
+                                <img src="images/icons/arrow2.svg" alt="#">
+                            </div>
+                            <div class="how-it-work-item">
+                                <div class="how-it-work-item-image">
+                                    <img src="images/icons/meals.svg" alt="#">
+                                </div>
+                                <h5>Enjoy Meals</h5>
+                                <p>Food is made and delivered directly to your home</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-item-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="listing-title-with-slider section-title2">
+                        <div class="sec-title-l">
+                            <h1>Popular Items</h1>
+                        </div>
+                        <div class="see-all-btn">
+                            <a href="#">
+                                <p>See all</p>
+                                <span>
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.53846 13.9231L15 7.46154L8.53846 1M14.1026 7.46154H1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                    <div class="listing-item-wraper1">
+                        <div class="listing-item-image1">
+                            <a href="#">
+                                <img src="images/products/26.png" alt="#">
+                            </a>
+                            <div class="listing-item-promo">
+                                <span>Promo</span>
+                            </div>
+                        </div>
+                        <div class="listing-item-title1">
+                            <div class="listing-item-verified-badge">
+                                <img src="images/icons/check.svg" alt="#">
+                                <h3>Preferred Merchant</h3>
+                            </div>
+                            <a href="#">
+                                <h2>Mediterranea Pizza</h2>
+                            </a>
+                            <h5>Try Grabber+</h5>
+                            <div class="listing-item-footer1">
+                                <h6><img src="images/icons/star3.svg"> 4.8</h6>
+                                <span>2 miles near you</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                    <div class="listing-item-wraper1">
+                        <div class="listing-item-image1">
+                            <a href="#">
+                                <img src="images/products/27.png" alt="#">
+                            </a>
+                            <div class="listing-item-promo">
+                                <span>Promo</span>
+                            </div>
+                        </div>
+                        <div class="listing-item-title1">
+                            <div class="listing-item-verified-badge">
+                                <img src="images/icons/check.svg" alt="#">
+                                <h3>Preferred Merchant</h3>
+                            </div>
+                            <a href="#">
+                                <h2>Mediterranea Pizza</h2>
+                            </a>
+                            <h5>Try Grabber+</h5>
+                            <div class="listing-item-footer1">
+                                <h6><img src="images/icons/star3.svg"> 4.8</h6>
+                                <span>1 mile near you</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                    <div class="listing-item-wraper1">
+                        <div class="listing-item-image1">
+                            <a href="#">
+                                <img src="images/products/28.png" alt="#">
+                            </a>
+                            <div class="listing-item-promo">
+                                <span>Promo</span>
+                            </div>
+                        </div>
+                        <div class="listing-item-title1">
+                            <div class="listing-item-verified-badge">
+                                <img src="images/icons/check.svg" alt="#">
+                                <h3>Preferred Merchant</h3>
+                            </div>
+                            <a href="#">
+                                <h2>Mediterranea Pizza</h2>
+                            </a>
+                            <h5>Try Grabber+</h5>
+                            <div class="listing-item-footer1">
+                                <h6><img src="images/icons/star3.svg"> 4.8</h6>
+                                <span>1 mile near you</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                    <div class="listing-item-wraper1">
+                        <div class="listing-item-image1">
+                            <a href="#">
+                                <img src="images/products/29.png" alt="#">
+                            </a>
+                            <div class="listing-item-promo">
+                                <span>Promo</span>
+                            </div>
+                        </div>
+                        <div class="listing-item-title1">
+                            <div class="listing-item-verified-badge">
+                                <img src="images/icons/check.svg" alt="#">
+                                <h3>Preferred Merchant</h3>
+                            </div>
+                            <a href="#">
+                                <h2>Mediterranea Pizza</h2>
+                            </a>
+                            <h5>Try Grabber+</h5>
+                            <div class="listing-item-footer1">
+                                <h6><img src="images/icons/star3.svg"> 4.8</h6>
+                                <span>1 mile near you</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="local-restaurants-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="listing-title-with-slider section-title2">
+                        <div class="sec-title-l">
+                            <h1>Local Restaurants</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="local-restaurants-home-wraper">
+                        <div class="local-restaurants-home-item">
+                            <img src="images/restaurants1.png" alt="#">
+                            <a href="#">
+                                <div class="local-restaurants-home-item-info">
+                                    <div>
+                                        <h4>Restaurant name</h4>
+                                        <div class="local-restaurants-home-item-rating">
+                                            <h6>
+                                                4.5k
+                                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z" fill="black"></path>
+                          </svg>
+                                            </h6>
+                                            <p>5 miles</p>
+                                        </div>
+                                    </div>
+                                    <div class="local-restaurants-home-icon">
+                                        <i class="fa fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="local-restaurants-home-item">
+                            <img src="images/restaurants2.png" alt="#">
+                            <a href="#">
+                                <div class="local-restaurants-home-item-info">
+                                    <div>
+                                        <h4>Restaurant name</h4>
+                                        <div class="local-restaurants-home-item-rating">
+                                            <h6>
+                                                4.5k
+                                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z" fill="black"></path>
+                          </svg>
+                                            </h6>
+                                            <p>5 miles</p>
+                                        </div>
+                                    </div>
+                                    <div class="local-restaurants-home-icon">
+                                        <i class="fa fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="local-restaurants-home-item">
+                            <img src="images/restaurants3.png" alt="#">
+                            <a href="#">
+                                <div class="local-restaurants-home-item-info">
+                                    <div>
+                                        <h4>Restaurant name</h4>
+                                        <div class="local-restaurants-home-item-rating">
+                                            <h6>
+                                                4.5k
+                                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z" fill="black"></path>
+                          </svg>
+                                            </h6>
+                                            <p>5 miles</p>
+                                        </div>
+                                    </div>
+                                    <div class="local-restaurants-home-icon">
+                                        <i class="fa fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="local-restaurants-home-item">
+                            <img src="images/restaurants4.png" alt="#">
+                            <a href="#">
+                                <div class="local-restaurants-home-item-info">
+                                    <div>
+                                        <h4>Restaurant name</h4>
+                                        <div class="local-restaurants-home-item-rating">
+                                            <h6>
+                                                4.5k
+                                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z" fill="black"></path>
+                          </svg>
+                                            </h6>
+                                            <p>5 miles</p>
+                                        </div>
+                                    </div>
+                                    <div class="local-restaurants-home-icon">
+                                        <i class="fa fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="local-restaurants-home-item">
+                            <img src="images/restaurants5.png" alt="#">
+                            <a href="#">
+                                <div class="local-restaurants-home-item-info">
+                                    <div>
+                                        <h4>Restaurant name</h4>
+                                        <div class="local-restaurants-home-item-rating">
+                                            <h6>
+                                                4.5k
+                                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z" fill="black"></path>
+                          </svg>
+                                            </h6>
+                                            <p>5 miles</p>
+                                        </div>
+                                    </div>
+                                    <div class="local-restaurants-home-icon">
+                                        <i class="fa fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="local-restaurants-home-item">
+                            <img src="images/restaurants6.png" alt="#">
+                            <a href="#">
+                                <div class="local-restaurants-home-item-info">
+                                    <div>
+                                        <h4>Restaurant name</h4>
+                                        <div class="local-restaurants-home-item-rating">
+                                            <h6>
+                                                4.5k
+                                                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.5 0L5.51031 3.10942H8.77975L6.13472 5.03115L7.14503 8.14058L4.5 6.21885L1.85497 8.14058L2.86528 5.03115L0.220246 3.10942H3.48969L4.5 0Z" fill="black"></path>
+                          </svg>
+                                            </h6>
+                                            <p>5 miles</p>
+                                        </div>
+                                    </div>
+                                    <div class="local-restaurants-home-icon">
+                                        <i class="fa fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="call-to-action-double">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="call-to-action-double-wraper">
+                        <div class="call-to-action-double-item">
+                            <img src="images/call-to-action1.png" alt="#">
+                            <div class="call-to-action-double-item-content">
+                                <div class="call-to-action-double-item-content-left">
+                                    <h4>Become a Driver </h4>
+                                    <p>Find out how you can become a driver today, we offer bonus after your first 90 days with us.</p>
+                                </div>
+                                <div class="call-to-action-double-item-content-right">
+                                    <a href="#">Find out How</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="call-to-action-double-item">
+                            <img src="images/call-to-action2.png" alt="#">
+                            <div class="call-to-action-double-item-content">
+                                <div class="call-to-action-double-item-content-left">
+                                    <h4>Become a restaurant Partner</h4>
+                                    <p>Get 30 days free when you sign up to become a partner restaurant with us.</p>
+                                </div>
+                                <div class="call-to-action-double-item-content-right">
+                                    <a href="#">Find out How</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="call-to-action" style="background: url('images/call-to-action.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="call-to-action-content">
+                        <h2>Get Perks, and enjoy the best deals?</h2>
+                        <p> Free delivery on first your order or deals. Find for restaurants that offers other promotion and deals.</p>
+                        <a href="#">Find out How</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="map">
+        <div class="container-fluid">
+            <div class="col-12">
+                <div class="listing-title-with-slider section-title2">
+                    <div class="sec-title-l">
+                        <h1>Cities We Cover</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-12">
+                <div class="map-wraper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583091352!2d-74.11976373946231!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1647707048420!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-cities">
+                        <h4>Our top cities</h4>
+                        <div class="footer-cities-wraper">
+                            <span><a href="#">San Francisco</a></span>
+                            <span><a href="#">Los Angeles</a></span>
+                            <span><a href="#">New York City</a></span>
+                            <span><a href="#">Chicago</a></span>
+                            <span><a href="#">Columbus</a></span>
+                            <span><a href="#">Miami</a></span>
+                            <span><a href="#">Washington DC</a></span>
+                            <span><a href="#">Orange County</a></span>
+                            <span><a href="#">Phoenix</a></span>
+                            <span><a href="#">New Mexico</a></span>
+                            <span><a href="#">San Diego</a></span>
+                            <span><a href="#">Seattle</a></span>
+                            <span><a href="#">Atlanta</a></span>
+                            <span><a href="#">Las Vegas</a></span>
+                            <span><a href="#">Albuquerque</a></span>
+                            <span><a href="#">East Bay</a></span>
+                            <span><a href="#">Portland</a></span>
+                            <span><a href="#">Charlotte</a></span>
+                            <span><a href="#">Sacramento</a></span>
+                            <span><a href="#">Scaramento</a></span>
+                            <span><a href="#">Long Beach</a></span>
+                            <span><a href="#">Nashville</a></span>
+                            <span><a href="#">Denver</a></span>
+                            <span><a href="#">Oklahoma City</a></span>
+                            <span><a href="#">New Orleans</a></span>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-left">
+                            <div class="footer-bottom-left-item">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-bottom-left-item">
+                                <h4>Contact</h4>
+                                <ul>
+                                    <li><a href="#">Help & Support</a></li>
+                                    <li><a href="#">Partner with us</a></li>
+                                    <li><a href="#">Ride with us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-bottom-left-item">
+                                <h4>Legal</h4>
+                                <ul>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Refund & Cancellation</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Cookie Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-bottom-midle">
+                            <a href="#">
+                                <img src="images/icons/google-play.svg" alt="#">
+                            </a>
+                            <a href="#">
+                                <img src="images/icons/apple-store.svg" alt="#">
+                            </a>
+                        </div>
+                        <div class="footer-bottom-right">
+                            <h4>Follow Us</h4>
+                            <div class="footer-social">
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-facebook-official"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                            <div class="newslater-wraper">
+                                <h3>Receive exclusive offers in your mailbox</h3>
+                                <div class="newslater-form">
+                                    <form action="" method="">
+                                        <div class="newslater-form-input">
+                                            <i class="fa fa-envelope"></i>
+                                            <input type="text" name="" placeholder="Enter Your email">
+                                        </div>
+                                        <button type="submit">Subsscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="copyright-text">
+                        <p>All rights Reserved ©Grab & Eats 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="scheduleModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body position-relative">
+                    <a href="#" data-bs-dismiss="modal" style="position: absolute; right: 20px; top: 15px; color: #000; font-size: 18px;">
+                        <i class="far fa-times"></i>
+                      </a>
+                    <div class="schedule-delivery-content">
+                        <h4>Schedule Delivery</h4>
+                        <h6>Today, Monday, Dec 8</h6>
+                        <!-- <select>
+                <option>10:50 AM - 11:15 AM</option>
+                <option>11:15 AM - 11:30 AM</option>
+                <option>11:30 AM - 11:45 AM</option>
+                <option>11:45 AM - 12:00 AM</option>
+                <option>12:00 AM - 12:15 AM</option>
+                <option>12:15 AM - 12:30 AM</option>
+                <option>12:30 AM - 12:45 AM</option>
+                <option>12:45 AM - 01:00 AM</option>
+              </select> -->
+
+                        <div class="dropdown">
+                            <button class="" type="button" id="scheduleTime" data-bs-toggle="dropdown" aria-expanded="false">
+                  10:50 AM - 11:15 AM
+                </button>
+                            <ul class="dropdown-menu" aria-labelledby="scheduleTime">
+                                <li><a class="dropdown-item" href="#">11:15 AM - 11:30 AM</a></li>
+                                <li><a class="dropdown-item" href="#">11:30 AM - 11:45 AM</a></li>
+                                <li><a class="dropdown-item" href="#">11:45 AM - 12:00 AM</a></li>
+                                <li><a class="dropdown-item" href="#">12:00 AM - 12:15 AM</a></li>
+                                <li><a class="dropdown-item" href="#">12:15 AM - 12:30 AM</a></li>
+                                <li><a class="dropdown-item" href="#">12:30 AM - 12:45 AM</a></li>
+                                <li><a class="dropdown-item" href="#">12:45 AM - 01:00 AM</a></li>
+                            </ul>
+                        </div>
+
+
+                        <button type="submit">Schedule</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script>
+
+    let btns = document.querySelectorAll('.searchBxActOnPhn')
+    let srchBlk = document.querySelector('.popupsearch')
+    if (btns.length > 0) { 
+        btns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                srchBlk.classList.toggle('show')
+            })
+        });
+    }
+
+
+</script>
+</body>
+
+</html>
