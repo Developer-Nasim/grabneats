@@ -1526,6 +1526,9 @@
 	    position: relative;
 	}
 
+	.signin-btn.loginBtn {
+		margin-left: 8px !important;
+	}
 
 }
 
@@ -2046,9 +2049,6 @@
 		align-items: center !important;
 		margin-left: 10px !important;
 	} 
-	.signin-btn.loginBtn {
-		margin-left: 8px !important;
-	}
 
 }
 
