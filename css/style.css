@@ -5921,6 +5921,7 @@ p.cart-restaurant-name {
 .searchblk h3 {
     font-weight: 700;
     margin-bottom: 10px;
+    font-size: 32px;
 }
 .searchinginpopup form input {
     width: 100%;
@@ -6318,9 +6319,11 @@ img.emptyBelowImg {
 }
 
 .restaurant-now-left .theCatgs.active ul {
-    margin: 0 15px;
+    margin-left: 15px;
 }
-
+.modal-dialog {
+    align-items: end;
+}
 
 
 
