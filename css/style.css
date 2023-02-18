@@ -5565,6 +5565,7 @@ a.delete-button:hover {
 }
 .restaurant-now-left ul{
     padding: 0px;
+    width: 100%;
 }
 .restaurant-now-left ul li {
     list-style: none;
@@ -5903,7 +5904,7 @@ p.cart-restaurant-name {
 }
 
 .searchinginpopup form {
-    width: 380px;
+    width: 100%; 
     height: 60px;
     background: #EFEDED;
     border: 1px solid #D8D7D7;
@@ -5911,7 +5912,16 @@ p.cart-restaurant-name {
     margin: auto;
     position: relative;
 }
-
+.searchblk{
+    width: 380px;
+    max-width: 95%;
+    text-align: left;
+    margin: auto;
+} 
+.searchblk h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 .searchinginpopup form input {
     width: 100%;
     height: 100%;
@@ -5924,7 +5934,7 @@ p.cart-restaurant-name {
 .searchinginpopup form  button {
     background: #090808;
     border-radius: 10px;
-    width: 156px;
+    width: 125px;
     height: 52px;
     display: flex;
     align-items: center;
@@ -6279,8 +6289,37 @@ img.emptyBelowImg {
 .allCarts.showCheckout .cart.checkout{
     display: block;
 }
+.theCatgs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    transition: .2s;
+}
 
+.theCatgs > button {
+    padding: 0;
+    line-height: 0;
+    border: none;
+    background: none;
+    display: none;
+}
+.theCatgs.active {
+    position: fixed;
+    background: #fff;
+    padding: 10px;
+}
 
+.theCatgs.active > button {
+    display: block;
+}
+
+.restaurant-now-left .theCatgs.active ul {
+    margin: 0 15px;
+}
 
 
 

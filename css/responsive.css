@@ -1492,12 +1492,19 @@
 	    overflow: inherit;
 	    display: flex;
 		overflow: auto;
+		margin: 0 0px;
+	}
+	.restaurant-now-left ul::-webkit-scrollbar{
+		height: 0;
 	}
 	.restaurant-now-left ul li {
-	    list-style: none;
-	    margin-bottom: 15px;
+	    list-style: none; 
 	    margin-right: 30px;
+		margin-bottom: 0;
 	}
+	.restaurant-now-left a {
+		margin: 0;
+	}  
 	.restaurant-now-right {
 	    width: calc(100% - 0px);
 	    border-left: 0px;
@@ -2039,7 +2046,9 @@
 		align-items: center !important;
 		margin-left: 10px !important;
 	} 
-
+	.signin-btn.loginBtn {
+		margin-left: 8px !important;
+	}
 
 }
 

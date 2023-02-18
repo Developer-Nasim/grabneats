@@ -88,6 +88,31 @@ ShowCarts()
 
 
 
+// sticky category
+function StickyCategory() {
+  let cats = document.querySelectorAll('.theCatgs')
+  if (cats.length > 0) {
+    window.addEventListener('scroll', () => {
+      let catMBlk = document.querySelector('.restaurant-now-left')
+      let cate = cats[0]
+      console.log(cate.offsetTop,window.scrollY)
+      if (window.scrollY > catMBlk.offsetTop+cate.clientHeight+20 ) {
+        cate.classList.add('active')
+      }else{
+        cate.classList.remove('active')
+      }
+    })
+  }
+}
+if (992 > window.innerWidth) {
+  StickyCategory()
+}
+
+
+
+
+
+
 // dropdown
   let targetDropdownmenu = document.querySelector('#myDropdown1');
   let dropdownToggler = document.querySelector('.dropbtn'); 
