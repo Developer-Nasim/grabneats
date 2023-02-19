@@ -2050,6 +2050,66 @@
 		margin-left: 10px !important;
 	} 
 
+	.fill-form { 
+		background: transparent;
+		opacity: 1;
+		box-shadow: none;
+		border-radius: 0;
+	}
+	.form-fill-section .container { 
+		padding: 20px 12px; 
+	}
+	.form-fill-section .fill-form h2 {  
+		font-weight: 700;
+		font-size: 36px !important;
+		line-height: 52px;
+	}
+	label.or_break {
+		display: block;
+		position: relative;
+		text-align: center;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 22px;
+		color: #444444;
+	}
+	
+	label.or_break:after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background: rgba(45, 45, 45, 0.85);
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		z-index: -2;
+		opacity: 0.5;
+	}
+	
+	label.or_break:before {
+		content: "";
+		position: absolute;
+		width: 40px;
+		height: 10px;
+		background: white;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: -1;
+	}
+	.form-model .single-input.sign-option .input {
+		padding-left: 0px !important;
+		text-align: center !important;
+		justify-content: center !important;
+	}
+
+
+
+
+
+
+
 }
 
 @media (max-width: 575.98px) {

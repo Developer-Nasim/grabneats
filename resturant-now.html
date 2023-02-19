@@ -673,7 +673,7 @@
             <div class="restaurant-now-main-flex">
               <div class="restaurant-now-left">
                 <div class="theCatgs">
-                  <button type="button" class="search"><img src="images/search.png" alt=""></button>
+                  <button type="button" class="search showHideCateSearch"><img src="images/search.png" alt=""></button>
                   <ul><!-- ***** Remove the overflow: hidden; style when you make the slider.-->
                     <li><a href="#">Category</a></li>
                     <li><a href="#">Category</a></li>
@@ -815,6 +815,15 @@
         <a href="#">Login/Signup</a>
       </div>
     </section>
+
+    <div class="categorieSearch">
+      <button type="button" class="showHideCateSearch"><img src="images/back.png" alt=""></button>
+      <form action="#">
+        <input type="text" placeholder="Find your menu" name="" id="">
+        <button type="button"><img src="images/search.png" alt=""></button>
+      </form>
+    </div>
+
     <!-- restaurant-now-section-ene -->
 
 
@@ -1291,6 +1300,18 @@
     </script>
     <script src="js/jquery.nice-number.min.js"></script>
     <script>
+
+      let ShowHideSearchBtns = document.querySelectorAll('.showHideCateSearch')
+      if (ShowHideSearchBtns.length > 0) {
+        let cateSearchWrp = document.querySelector('.categorieSearch')
+        ShowHideSearchBtns.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            cateSearchWrp.classList.toggle('show')
+          })
+        })
+      }
+
+
       $(document).ready(function(){
 			$('.nice-select').niceSelect();
 		})
