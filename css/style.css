@@ -6371,10 +6371,20 @@ img.emptyBelowImg {
     right: 15px;
     transform: translateY(-50%);
 }
+.product-show-section .section-title h2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
-
+.product-show-section .section-title h2 a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    display: none;
+}
 
 
 
