@@ -18,6 +18,9 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <title>Grab & Eats</title>
+    <style>
+ 
+    </style>
   </head>
   <body style="background: #fff;">
 
@@ -976,7 +979,7 @@
         <div class="modal-content radius-0">
           <div class="modal-close">
             <button type="button" data-bs-dismiss="modal" aria-label="Close">
-              <img src="images/icons/close.svg" alt="#">
+              <img src="images/close-popup.png" alt="#">
             </button>
           </div>
           <div class="modal-body">
@@ -986,159 +989,71 @@
                   <img class="radius-0" src="images/products/18.png" alt="#">
                 </div>
                 <div class="product-quantity-modal-body-info">
-                  <h3>Crunchwrap Supreme</h3>
+                  <h3 class="text-truncate">Crunchwrap Supreme</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Duis sed felis et, arcu vulputate ut. Amet</p>
                 </div>
               </div>
 
               <div class="product-quantity-additional-wraper">
                 <div class="product-quantity-additional-top">
-                  <h5>Toppings</h5>
-                  <span>(Optional)</span>
-                </div>
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Vegetables</h5>
-                    <span>$2.15</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="1">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
 
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Herb Oil</h5>
-                    <span>$200</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="0">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
 
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Galic Oil</h5>
-                    <span>$2.15</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="0">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Olives</h5>
-                    <span>$3.00</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="1">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Mushrooms</h5>
-                    <span>$2.15</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="0">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Tomato Souce</h5>
-                    <span>$2.15</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="0">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Cheese</h5>
-                    <span>$2.00</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="4">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Fussili</h5>
-                    <span>$1.00</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="4">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-quantity-additional-item">
-                  <div class="product-quantity-additional-item-name">
-                    <h5>Gnocchi</h5>
-                    <span>$2.15</span>
-                  </div>
-                  <div class="restaurants-cart-item-quantity">
-                    <button>
-                      <i class="fa fa-minus"></i>
-                    </button>
-                    <input type="text" name="" value="4">
-                    <button>
-                      <i class="fa fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
+                  <ul>
+                    <li class="title">
+                      <h5>Choose Size</h5>
+                      <h5 class="required">Required</h5>
+                    </li>
+                    <li> 
+                      <label for="info">
+                        <input type="radio" name="info" id="info" checked>
+                        <div class="item_title">
+                          <span>10 Inch</span>
+                          <span>$0</span>
+                        </div>
+                        <div class="underdata">
+                          <p>Customize this item <img src="images/angle-right.png" alt=""></p>
+                        </div>
+                      </label>
+                    </li>  
+                    <li> 
+                      <label for="info2">
+                        <input type="radio" name="info" id="info2">
+                        <div class="item_title">
+                          <span>12 Inch</span>
+                          <span>$1.5</span>
+                        </div>
+                        <div class="underdata">
+                          <p>Customize this item <img src="images/angle-right.png" alt=""></p>
+                        </div>
+                      </label>
+                    </li>  
+                    <li> 
+                      <label for="info3">
+                        <input type="radio" name="info" id="info3">
+                        <div class="item_title">
+                          <span>14 Inch</span>
+                          <span>$4.07</span>
+                        </div>
+                        <div class="underdata">
+                          <p>Customize this item <img src="images/angle-right.png" alt=""></p>
+                        </div>
+                      </label>
+                    </li>  
+                    <li> 
+                      <label for="info4">
+                        <input type="radio" name="info" id="info4">
+                        <div class="item_title">
+                          <span>16 Inch</span>
+                          <span>$7.76</span>
+                        </div>
+                        <div class="underdata">
+                          <p>Customize this item <img src="images/angle-right.png" alt=""></p>
+                        </div>
+                      </label>
+                    </li>  
+                  </ul>
+  
+                </div> 
 
                 <div class="product-quantity-modal-cart-btn">
                   <button class="radius-0">$15.85 - Add to Cart</button>

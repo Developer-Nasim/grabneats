@@ -1679,12 +1679,11 @@
 	    margin-bottom: 30px;
 	}
 	.product-quantity-modal-body-top {
-	    display: block;
-	    justify-content: space-between;
+	    display: flex; 
 	}
 	.product-quantity-modal-body-info {
 	    padding: 0px 0px;
-	    margin-top: 15px;
+	    margin-top: 0;
 	}
 	.product-quantity-additional-item-name h5, .product-quantity-additional-top h5 {
 	    font-size: 16px;
@@ -2386,8 +2385,18 @@
 	    font-size: 14px;
 	}
 	.product-quantity-modal-body-image img {
-	    width: 190px;
-	    border-radius: 10px;
+		width: 100px;
+		height: 70px;
+		object-fit: cover;
+		margin-right: 15px;
+	}
+	.product-quantity-modal-body-info h3 { 
+		max-width: 110px;
+	}
+	.product-quantity-modal-body-info h3 {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 23px;
 	}
 	div#productQuantityModal .restaurants-cart-item-quantity button {
 	    background: #f27327;
@@ -3109,6 +3118,54 @@
 	    font-size: 15px;
 	    display: none;
 	}
+	.product-quantity-modal-body-info > p {
+		margin-top: 3px;
+		margin-bottom: 0; 
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	div#productQuantityModal .modal-dialog.modal-dialog-centered {
+		min-width: 100%;
+		align-items: inherit;
+		margin: 0;
+	}
+	div#productQuantityModal .modal-content{
+		border-radius: 0 !important;
+	}
+	div#productQuantityModal .modal-content .modal-body{
+		padding: 15px;
+	}
+	div#productQuantityModal .modal-close button img {
+		width: 30px;
+	}
+	div#productQuantityModal .modal-close button { 
+		right: 5px;
+		top: 8px; 
+	}
+	div#productQuantityModal .modal-dialog-scrollable {
+		height: 100%;
+	} 
+	div#productQuantityModal .modal-content .modal-body { 
+		position: unset;
+	}
+	.product-quantity-additional-wraper .product-quantity-modal-cart-btn {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	.product-quantity-modal-cart-btn button {
+		font-size: 16px; 
+		width: 100%;
+		background: #636363;
+	}
+
+
+
+
+
+
 }
 
 
@@ -3684,6 +3741,7 @@
 
     .form-fill-section .fill-form {
         padding: 25px 12px;
+		padding-top: 0;
     }
 
     .bg-form-fill-section .fill-form {
