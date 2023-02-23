@@ -2101,8 +2101,11 @@
 		padding-left: 0px !important;
 		text-align: center !important;
 		justify-content: center !important;
+		min-height: 60px;
 	}
-
+	.form-model .single-input .input{
+		min-height: 60px !important;
+	}
 
 
 	.food-category-slider-item h6 {
