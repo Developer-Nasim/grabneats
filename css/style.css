@@ -5759,6 +5759,14 @@ span.restaurants-cart-items-promo {
     margin-left: 5px;
     box-shadow: 0px 4px 5px 1px #fd943566;
 }
+.restaurants-cart-items.restaurant-top-details .restaurant-data .image.skeleton-loader {
+    margin: 0 0 0 0;
+}
+
+.restaurants-cart-items.restaurant-top-details .restaurant-data h3 {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
 .restaurant-now-left ul {
     padding: 0px;
     height: 600px;
