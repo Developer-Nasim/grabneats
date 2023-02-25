@@ -98,7 +98,7 @@
             <span>PickUp</span>
         </label>-->
               </div>
-              <div class="search-box big-search-box d-lg-flex d-none ml-auto">
+              <div class="search-box big-search-box d-none ml-auto"> <!-- removed d-flex and added d-none -->
                   <i class="far fa-search"></i>
                   <input type="text" name="" placeholder="Search">
               </div>
@@ -575,7 +575,7 @@
 
    <!-- restaurant-now-section -->
     <section class="restaurant-now-section">
-      <div class="container container-full">
+      <div class="container container-full d-none">
         <div class="restaurant-now-inner">
           <div class="restaurant-top-details skeleton-loader loading" style="background: url('images/restaurant-banner.png');">
             <div class="container">
@@ -598,7 +598,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container d-none">
         <div class="restaurant-now-inner">
           <div class="restaurant-options-wrap restaurant-options-wrap-desktop">
             <div class="restaurant-options-wrap-left">
@@ -674,7 +674,7 @@
         <div class="row">
           <div class="col-12">
             <div class="restaurant-now-main-flex">
-              <div class="restaurant-now-left">
+              <div class="restaurant-now-left d-none">
                 <div class="theCatgs">
                   <button type="button" class="search showHideCateSearch"><img src="images/search.png" alt=""></button>
                   <ul><!-- ***** Remove the overflow: hidden; style when you make the slider.-->
@@ -704,6 +704,30 @@
                 </div>
 
                 <div class="restaurants-cart-items-wraper">
+                
+                  <div class="restaurants-cart-items skeleton-loader loading restaurant-top-details">
+                    <div class="restaurant-data">
+                      <div class="image skeleton-loader loading">
+                        <img src="images/restaurant-thumb.png" alt="">
+                      </div>
+                      <div class="text-data skeleton-loader loading">
+                        <h3>Restaurant Name</h3>
+                        <p>120 West Havertraw,NY <span>5miles</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="restaurants-cart-items skeleton-loader loading restaurant-top-details">
+                    <div class="restaurant-data">
+                      <div class="image skeleton-loader loading">
+                        <img src="images/restaurant-thumb.png" alt="">
+                      </div>
+                      <div class="text-data skeleton-loader loading">
+                        <h3>Restaurant Name</h3>
+                        <p>120 West Havertraw,NY <span>5miles</span></p>
+                      </div>
+                    </div>
+                  </div>
+
                   <div class="restaurants-cart-items skeleton-loader loading">
                     <div class="restaurants-cart-items-info">
                       <h4>Mediterranea Pizza</h4>
@@ -979,7 +1003,7 @@
         <div class="modal-content radius-0">
           <div class="modal-close">
             <button type="button" data-bs-dismiss="modal" aria-label="Close">
-              <img src="images/close-popup.png" alt="#">
+              <img src="images/icons/close.svg" alt="#">
             </button>
           </div>
           <div class="modal-body">
@@ -1008,7 +1032,18 @@
                         <input type="radio" name="info" id="info" checked>
                         <div class="item_title">
                           <span>10 Inch</span>
-                          <span>$0</span>
+                          <div class="itmEndSide">
+                            <div class="restaurants-cart-item-quantity">
+                              <button>
+                                <i class="fa fa-minus"></i>
+                              </button>
+                              <input type="text" name="" value="1">
+                              <button>
+                                <i class="fa fa-plus"></i>
+                              </button>
+                            </div>
+                            <span>$0</span>
+                          </div>
                         </div>
                         <div class="underdata">
                           <p>Customize this item <img src="images/angle-right.png" alt=""></p>
