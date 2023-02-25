@@ -5671,7 +5671,7 @@ a.delete-button:hover {
 }
 .restaurants-cart-items {
     border: 1px solid #E8E8E8;
-    width: 48%;
+    width: 32%;
     display: flex;
     background: #FAFAFA;
     border-radius: 12px;
