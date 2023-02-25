@@ -3766,8 +3766,8 @@ section.deliver-when-you-want .how-it-work-wraper {
 }
 .restaurant-top-details .restaurant-data .text-data p span {
     font-weight: 400;
-    margin-left: 20px;
-    display: inline-block;
+    margin-left: 0;
+    display: block;
     color: #585858;
 }
 .restaurant-options-wrap {
