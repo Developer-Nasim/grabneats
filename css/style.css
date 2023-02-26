@@ -6547,7 +6547,30 @@ label .item_title > .itmEndSide span {
 } 
 
 
+.product_search_bar {
+    display: block;
+    background: #FAFAFA;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 30px;
+}
 
+.product_search_bar input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+.product_search_bar i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
 
 
 

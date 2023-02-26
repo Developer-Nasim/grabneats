@@ -80,11 +80,23 @@
    <!-- menu-header -->
       <section class="menu-header space-menu-header" style="background: #fff">
           <div class="container-fluid bg-white">
-              <a class="hamburger offcanvas-open" href="#">
+              <!-- <a class="hamburger offcanvas-open" href="#">
                   <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 12.8571C0 14.0406 0.95939 15 2.14286 15H27.8571C29.0406 15 30 14.0406 30 12.8571C30 11.6737 29.0406 10.7143 27.8571 10.7143H2.14286C0.959389 10.7143 0 11.6737 0 12.8571ZM0 23.5714C0 24.7549 0.95939 25.7143 2.14286 25.7143H27.8571C29.0406 25.7143 30 24.7549 30 23.5714C30 22.388 29.0406 21.4286 27.8571 21.4286H2.14286C0.959389 21.4286 0 22.388 0 23.5714ZM2.14286 0C0.959389 0 0 0.95939 0 2.14286C0 3.32632 0.95939 4.28571 2.14286 4.28571H27.8571C29.0406 4.28571 30 3.32632 30 2.14286C30 0.95939 29.0406 0 27.8571 0H2.14286Z" fill="#031224" />
                   </svg>
-              </a>
+              </a> -->
+
+              <div class="language-select d-flex align-items-center">
+                <div class="icon">
+                  <i class="far fa-globe"></i>
+                </div>
+                <select class="nice-select right">
+                  <option>EN</option>
+                  <option>Other</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
               <div class="delivery-by d-lg-flex d-none">
                   <a href="index.html" class="circle-logo ms-xl-2 ms-lg-0 ms-auto me-2">
                       <img src="images/icon-logo.png" alt="">
@@ -671,6 +683,14 @@
       </div>
 
       <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="product_search_bar"> 
+              <i class="far fa-search"></i>
+              <input type="text" name="" placeholder="Search products and stores">
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-12 col-lg-10 offset-lg-1">
             <div class="restaurant-now-main-flex">
