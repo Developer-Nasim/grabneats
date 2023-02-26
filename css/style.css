@@ -3761,7 +3761,7 @@ section.deliver-when-you-want .how-it-work-wraper {
 }
 .restaurant-top-details .restaurant-data .text-data p {
     margin: 0;
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 700;
 }
 .restaurant-top-details .restaurant-data .text-data p span {
@@ -5617,6 +5617,7 @@ a.delete-button:hover {
     transition: .3s ease;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    padding: 10px 10px;
 }
 .restaurants-cart-items.restaurant-top-details .restaurant-data:hover{
     background: #FFFFFF;
@@ -5764,7 +5765,7 @@ span.restaurants-cart-items-promo {
 }
 
 .restaurants-cart-items.restaurant-top-details .restaurant-data h3 {
-    font-size: 28px;
+    font-size: 18px;
     margin-bottom: 0px;
 }
 .restaurant-now-left ul {
