@@ -92,7 +92,7 @@
 
 
 
-	.restaurants-cart-items.restaurant-top-details .restaurant-data { 
+	/* .restaurants-cart-items.restaurant-top-details .restaurant-data { 
 		padding: 20px;
 	} 
 	.restaurants-cart-items.restaurant-top-details .restaurant-data .image.skeleton-loader {
@@ -104,7 +104,7 @@
 	}
 	.restaurants-cart-items.restaurant-top-details .restaurant-data .text-data p { 
 		font-size: 12px !important;
-	}
+	} */
 
 
 
@@ -368,7 +368,7 @@
 	}
 
 
-	.restaurant-top-details .restaurant-data .text-data h3 {
+	/* .restaurant-top-details .restaurant-data .text-data h3 {
 		font-size: 25px;
 		margin: 0 0 4px;
 	}
@@ -387,7 +387,7 @@
 	.restaurant-top-details {
 		min-height: 350px;
 		padding: 35px;
-	}
+	} */
 
 
 	.restaurant-options-wrap .delivery-options .option h3 {
@@ -1027,7 +1027,7 @@
 	}
 	
 
-	.restaurants-cart-items.restaurant-top-details .restaurant-data { 
+	/* .restaurants-cart-items.restaurant-top-details .restaurant-data { 
 		padding: 10px;
 	} 
 	.restaurants-cart-items.restaurant-top-details .restaurant-data .image.skeleton-loader {
@@ -1042,7 +1042,7 @@
 	}
 	.restaurant-top-details .restaurant-data .text-data p span { 
 		margin-left: 15px; 
-	}
+	} */
 
 
 
