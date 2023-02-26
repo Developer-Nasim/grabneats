@@ -6566,8 +6566,12 @@ label .item_title > .itmEndSide span {
     border: none;
     background: none;
     padding: 10px;
+    
+    border-radius: 5px
 }
-
+.product_search_bar input:focus{
+    border: 1px solid #000;
+}
 .product_search_bar i {
     position: absolute;
     top: 50%;
