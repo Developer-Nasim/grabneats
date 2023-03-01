@@ -3761,14 +3761,21 @@ section.deliver-when-you-want .how-it-work-wraper {
 }
 .restaurant-top-details .restaurant-data .text-data p {
     margin: 0;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 700;
 }
 .restaurant-top-details .restaurant-data .text-data p span {
     font-weight: 400;
-    margin-left: 0;
-    display: block;
+    margin-left: 20px;
+    display: inline-block;
     color: #585858;
+}
+.itempage .restaurant-top-details .restaurant-data .text-data p{ 
+    font-size: 11px; 
+}
+.itempage .restaurant-top-details .restaurant-data .text-data p span{ 
+    margin-left: 0;
+    display: block; 
 }
 .restaurant-options-wrap {
     padding: 40px 0 0;
@@ -5598,6 +5605,10 @@ a.delete-button:hover {
     color: #444444;
 }
 .restaurant-now-right {
+    width: calc(100% - 225px);
+    padding-left: 40px;
+}
+.itempage .restaurant-now-right{
     width: 100%;
     padding-left: 0;
     max-width: 1040px;
@@ -5674,7 +5685,7 @@ a.delete-button:hover {
 }
 .restaurants-cart-items {
     border: 1px solid #E8E8E8;
-    width: 32%;
+    width: 48%;
     display: flex;
     background: #FAFAFA;
     border-radius: 12px;
@@ -5682,6 +5693,9 @@ a.delete-button:hover {
     margin-top: 20px;
     height: 150px;
     margin-bottom: 20px;
+}
+.itempage .restaurants-cart-items { 
+    width: 32%; 
 }
 .restaurants-cart-items-image {
     width: 210px;
@@ -5893,7 +5907,7 @@ p.cart-restaurant-name {
 /* My css */
 
 
-.restaurant-top-details .restaurant-data .image img{
+.itempage .restaurant-top-details .restaurant-data .image img{
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -6332,7 +6346,7 @@ img.emptyBelowImg {
     display: flex;
     align-items: center;
     margin-bottom: 15px; 
-    z-index: 9999;
+    z-index: 9;
     top: 0;
     left: 0;
     max-width: 100%;

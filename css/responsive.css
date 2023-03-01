@@ -2016,7 +2016,7 @@
 	.restaurant-top-details .restaurant-data {
 	    padding: 15px 20px;
 	    border-radius: 10px;
-	    /* margin-bottom: 15px; */
+	    margin-bottom: 15px;
 	}
 	.restaurant-top-details {
 	    min-height: 200px;
@@ -2075,9 +2075,20 @@
 
 
 
-
-	
-	
+	.restaurant-top-details {
+		min-height: 170px !important;
+	}
+	.restaurant-top-details .restaurant-data .text-data h3 {
+		font-size: 32px;
+		margin: 0 0 4px; 
+	}
+	.restaurant-top-details .restaurant-data .image { 
+		margin: 0 15px 0 0;
+	}
+	.itempage .restaurants-cart-items.restaurant-top-details .restaurant-data h3 {
+		font-size: 18px;
+		margin-bottom: 0px;
+	}
 	.popupsearch.show{
 		opacity: 1;
 		visibility: visible;
@@ -2225,6 +2236,14 @@
 		width: unset !important;
 		max-height: 16.72px;
 	}
+	.itempage .restaurants-cart-items {
+		width: 100%;
+	}
+
+	.itempage .restaurants-cart-items.restaurant-top-details .restaurant-data{
+		margin-bottom: 0;
+	}
+
 
 }
 
