@@ -1533,6 +1533,7 @@
 	    min-width: auto;
 	    padding-right: 0px;
 	    margin-top: 0px;
+		height: unset;
 	}
 	.restaurant-now-left ul {
 	    padding: 0px;
@@ -1576,6 +1577,42 @@
 
 	.signin-btn.loginBtn {
 		margin-left: 8px !important;
+	}
+
+
+
+
+
+
+
+
+	/* New css added */
+	.grabber-pass-box h2 {
+	    font-size: 30px;
+	}
+	.grabber-pass-box {
+	    padding: 25px 30px;
+	}
+	.perks-restaurants-list-item-name h3 {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	.perks-restaurants-list-item-name {
+	    margin-left: 15px;
+	    width: 200px;
+	}
+	.perks-restaurants-list-item-offer h4 {
+	    font-size: 15px;
+	}
+	.perks-restaurants-list-item-logo {
+	    max-width: 45px;
+	}
+	.perks-restaurants-list-item-logo img {
+	    width: 45px;
+	    height: 45px;
+	}
+	.grocery-category h2{
+		display: none;
 	}
 
 }
@@ -2160,10 +2197,10 @@
 		padding-left: 0px !important;
 		text-align: center !important;
 		justify-content: center !important;
-		min-height: 60px;
+		min-height: 55px;
 	}
 	.form-model .single-input .input{
-		min-height: 60px !important;
+		min-height: 55px !important;
 	}
 
 
@@ -2238,6 +2275,7 @@
 	}
 	.itempage .restaurants-cart-items {
 		width: 100%;
+		min-height: unset !important;
 	}
 
 	.itempage .restaurants-cart-items.restaurant-top-details .restaurant-data{
@@ -2245,6 +2283,55 @@
 	}
 
 
+
+
+	/* New css added */
+	
+	.perks-restaurants-list-item-name {
+	    margin-left: 0px;
+	    width: auto;
+	    margin-top: 10px;
+	}
+	.perks-restaurants-list-item-categories {
+	    margin-top: 5px;
+	    margin-left: 0px;
+	}
+	.perks-restaurants-search form {
+	    position: relative;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.perks-restaurants-list-item > div {
+	    display: block;
+	    align-items: center;
+	}
+	.perks-restaurants-search form input {
+	    width: 100%;
+	    padding: 10px 20px;
+	    font-size: 14px;
+	}
+	.perks-restaurants-search form button {
+	    right: 10px;
+	}
+	.perks-restaurants-wraper h2 {
+	    font-size: 16px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }
 
 @media (max-width: 575.98px) {
